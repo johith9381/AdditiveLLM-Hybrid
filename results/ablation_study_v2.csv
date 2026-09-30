@@ -1,0 +1,11 @@
+configuration,accuracy_pct,exact_match_ratio_pct,macro_f1,inference_latency_per_sample_ms,trainable_parameters,description
+Branch 1 Alone (DistilBERT/ModernBERT LoRA),94.92,85.5,0.8829,14.5,294912,Text branch 1 with LoRA r=8 adapter on self-attention projections
+Branch 2 Alone (SciBERT/DeBERTa LoRA),94.58,86.17,0.8657,22.1,589824,Text branch 2 with scientific vocabulary and LoRA r=8 adapter
+Branch 3 Alone (Materials Domain LoRA),93.88,83.5,0.8383,22.1,589824,Text branch 3 specialized on materials science nomenclature
+Branch 4 Alone (FT-Transformer Tabular),96.75,92.5,0.9445,3.8,129604,Feature Tokenizer Transformer on 11 continuous features + material embedding
+Branch 5 Alone (GBDT LightGBM/XGBoost),99.38,98.5,0.9876,0.4,0,Gradient-boosted decision trees trained on raw params + hydrodynamic energy ratios
+Text Branches Only (1+2+3),95.83,88.83,0.8969,32.4,1474560,Unweighted average of the three transformer text representations
+Tabular Branches Only (4+5),97.92,95.33,0.9664,4.2,129604,Direct combination of FT-Transformer neural tokens and GBDT decision rules
+All 5 Branches + Simple Gating (v1),97.21,92.33,0.946,34.2,1604164,Learned gating fusion across all 5 branches without out-of-fold meta-learner
+All 5 Branches + Stacking Meta-Learner (Single Seed),98.08,94.0,0.9619,34.6,1605200,Non-linear stacking meta-learner trained on out-of-fold calibrated probabilities
+All 5 Branches + Stacking + 5-Seed Ensemble (Full Upgraded Stack),98.12,94.67,0.9638,35.8,1605200,Publication-standard full upgraded stack: 5 branches + Stacking Meta-Learner + 5-Seed Ensembling

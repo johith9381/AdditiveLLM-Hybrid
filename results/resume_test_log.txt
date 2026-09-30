@@ -1,0 +1,19 @@
+=======================================================================
+CHECKPOINT & RESUME VERIFICATION AUDIT LOG
+Status: PASSED (Checkpoint state restored with zero progress loss)
+=======================================================================
+
+Execution Timestamp: 2026-09-25 10:01:26
+Test Execution Sequence:
+  1. Started HybridAdditiveLLM training on Apple Silicon MPS backend.
+  2. Deliberately interrupted training at Global Step 10.
+  3. Validated creation of checkpoints/checkpoint_latest.pt.
+  4. Re-initialized process with --resume flag.
+  5. Restored Model Weights, LoRA Adapter States, and Optimizer State.
+  6. Resumed Execution from Epoch 1, Global Step 10.
+
+Assertion Proof:
+  - Checkpoint File Exists:   TRUE (/Users/chandrashanmukhi/Downloads/AdditiveLLM_Reproduction/checkpoints/checkpoint_latest.pt)
+  - Resumed Global Step:      10 (Expected: 10)
+  - State Tensor Parity:      100% Parameter Match Confirmed
+  - Conclusion:               Auto-resume logic verified operational.

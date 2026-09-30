@@ -1,0 +1,7 @@
+Tier,Format,Single_Run_Mean_Acc,Single_Run_Mean_F1,Ensemble_Acc,Ensemble_F1,Accuracy_Gain_Pct,F1_Gain,Statistically_Significant
+Tier A,Baseline,98.06,0.9634,98.12,0.9638,0.07,0.0004,True
+Tier A,Prompt,98.11,0.9643,98.12,0.9638,0.02,-0.0005,False
+Tier B,Baseline,96.72,0.9107,96.67,0.9086,-0.06,-0.0021,False
+Tier B,Prompt,96.72,0.9109,96.67,0.9086,-0.05,-0.0023,False
+Tier C,Baseline,76.83,0.3494,79.58,0.3934,2.75,0.044,True
+Tier C,Prompt,76.77,0.3483,79.54,0.3883,2.78,0.04,True

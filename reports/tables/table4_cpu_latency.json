@@ -1,0 +1,26 @@
+{
+  "distilbert": {
+    "model": "DistilBERT",
+    "parameters_m": 66.4,
+    "baseline_latency_ms": 213.04,
+    "prompt_latency_ms": 209.64,
+    "samples_per_sec_baseline": 4.7,
+    "samples_per_sec_prompt": 4.8
+  },
+  "t5": {
+    "model": "T5-Small",
+    "parameters_m": 35.3,
+    "baseline_latency_ms": 94.22,
+    "prompt_latency_ms": 95.82,
+    "samples_per_sec_baseline": 10.6,
+    "samples_per_sec_prompt": 10.4
+  },
+  "scibert": {
+    "model": "SciBERT",
+    "parameters_m": 109.9,
+    "baseline_latency_ms": 409.51,
+    "prompt_latency_ms": 410.02,
+    "samples_per_sec_baseline": 2.4,
+    "samples_per_sec_prompt": 2.4
+  }
+}

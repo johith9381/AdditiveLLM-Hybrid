@@ -1,0 +1,3 @@
+Alloy,Zero_Shot_Accuracy_Pct,Zero_Shot_Macro_F1,Included_Accuracy_Pct,Included_Macro_F1,Delta_Accuracy_Pct,Delta_Macro_F1,Samples,Diagnosis
+Inconel 625 (IN625),74.15,0.3093,78.83,0.2746,4.67,-0.0346,1000,CASE B (Model Ceiling)
+AlSi10Mg (Al-Si Alloy),74.12,0.2657,68.16,0.4759,-5.97,0.2102,800,CASE B (Model Ceiling)

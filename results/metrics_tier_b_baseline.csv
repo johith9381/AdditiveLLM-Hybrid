@@ -1,0 +1,5 @@
+defect_class,accuracy_pct,precision,recall,f1_score,false_negative_rate_pct,true_positives,false_positives,true_negatives,false_negatives,support
+None,98.25,0.9758,0.9942,0.9849,0.58,686,17,493,4,690
+Keyhole,93.75,0.9014,0.6772,0.7734,32.28,128,14,997,61,189
+Lack_of_Fusion,97.5,0.9772,0.9613,0.9692,3.87,472,11,698,19,491
+Balling,98.75,0.9322,0.8333,0.88,16.67,55,4,1130,11,66

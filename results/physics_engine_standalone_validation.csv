@@ -1,0 +1,6 @@
+Tier,Sample_Count,Accuracy_Pct,Macro_F1,Precision,Recall,Recall_None,Recall_Keyhole,Recall_LoF,Recall_Balling,Model_Type
+Tier A (In-Distribution),83074,25.01,0.2387,0.3509,0.3499,0.0465,0.4143,0.9387,0.0,Pure Closed-Form Rosenthal Physics (Zero Learned Parameters)
+Tier B (Held-Out Melt Pools),130135,24.43,0.2265,0.3373,0.34,0.0334,0.3705,0.9556,0.0007,Pure Closed-Form Rosenthal Physics (Zero Learned Parameters)
+Tier C (Held-Out Superalloys OOD),38897,9.92,0.2582,0.3928,0.4668,0.0077,1.0,0.8594,0.0,Pure Closed-Form Rosenthal Physics (Zero Learned Parameters)
+Deployment (Tier A + Tier B Pooled),213209,24.66,0.2312,0.3432,0.3442,0.0386,0.3884,0.9492,0.0004,Pure Closed-Form Rosenthal Physics (Zero Learned Parameters)
+Overall (All Tiers Pooled),252106,22.38,0.2379,0.3531,0.3469,0.0379,0.4259,0.9234,0.0002,Pure Closed-Form Rosenthal Physics (Zero Learned Parameters)

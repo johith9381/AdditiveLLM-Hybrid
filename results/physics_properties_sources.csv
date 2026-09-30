@@ -1,0 +1,49 @@
+Material,Property_Symbol,Property_Name,Value,Unit,Experimental_Conditions,Literature_Source,DOI_or_Reference,Dataset_Sample_Count_Total,Dataset_Representation_Status
+SS316L,k,Thermal Conductivity,16.3,W/(m·K),Room Temp / Solid Phase,"Mills, K. C., Recommended Values of Thermophysical Properties for Selected Commercial Alloys (2002)",ISBN:978-1855735682,256339,Primary Major Alloy
+SS316L,A,Optical Absorptivity,0.42,dimensionless,"λ = 1064-1070 nm, Fiber Laser","King, W. E. et al., Additive Manufacturing 35, 101340 (2020)",10.1016/j.addma.2020.101340,256339,Primary Major Alloy
+SS316L,Ts,Solidus Temperature,1648,K,Equilibrium Solidus,"Mills, K. C. (2002)",ISBN:978-1855735682,256339,Primary Major Alloy
+SS316L,Tl,Liquidus Temperature,1673,K,Equilibrium Liquidus,"Mills, K. C. (2002)",ISBN:978-1855735682,256339,Primary Major Alloy
+SS316L,rho,Density,7950,kg/m3,Solid density at 293 K,"ASM Handbook Vol. 1, Properties and Selection: Irons, Steels (1990)",ISBN:978-0871703774,256339,Primary Major Alloy
+SS316L,Cp,Specific Heat,500,J/(kg·K),Mean solid specific heat,"Mills, K. C. (2002)",ISBN:978-1855735682,256339,Primary Major Alloy
+Ti-6Al-4V,k,Thermal Conductivity,6.7,W/(m·K),Room Temp / Solid Phase,"Boyer, R. et al., Materials Properties Handbook: Titanium Alloys, ASM (1994)",ISBN:978-0871704818,181476,Primary Major Alloy
+Ti-6Al-4V,A,Optical Absorptivity,0.38,dimensionless,"λ = 1064-1070 nm, Powder Bed","Boley, C. D. et al., Applied Optics 54(3), 403-409 (2015)",10.1364/AO.54.000403,181476,Primary Major Alloy
+Ti-6Al-4V,Ts,Solidus Temperature,1878,K,Beta transus / solidus,"Boyer, R. et al. (1994)",ISBN:978-0871704818,181476,Primary Major Alloy
+Ti-6Al-4V,Tl,Liquidus Temperature,1923,K,Equilibrium Liquidus,"Boyer, R. et al. (1994)",ISBN:978-0871704818,181476,Primary Major Alloy
+Ti-6Al-4V,rho,Density,4430,kg/m3,Solid density at 293 K,"Boyer, R. et al. (1994)",ISBN:978-0871704818,181476,Primary Major Alloy
+Ti-6Al-4V,Cp,Specific Heat,526,J/(kg·K),Solid specific heat at 293 K,"Boyer, R. et al. (1994)",ISBN:978-0871704818,181476,Primary Major Alloy
+IN718,k,Thermal Conductivity,11.4,W/(m·K),Room Temp / Annealed,"Special Metals Corp., Inconel 718 Technical Bulletin (2007)",SMC-045,59015,Well-Represented Alloy
+IN718,A,Optical Absorptivity,0.40,dimensionless,"λ = 1070 nm, Bare Powder Bed","Raghavan, N. et al., Acta Materialia 112, 303-314 (2016)",10.1016/j.actamat.2016.03.063,59015,Well-Represented Alloy
+IN718,Ts,Solidus Temperature,1533,K,Equilibrium Solidus,"Special Metals Corp. (2007)",SMC-045,59015,Well-Represented Alloy
+IN718,Tl,Liquidus Temperature,1609,K,Equilibrium Liquidus,"Special Metals Corp. (2007)",SMC-045,59015,Well-Represented Alloy
+IN718,rho,Density,8190,kg/m3,Solid density at 293 K,"Special Metals Corp. (2007)",SMC-045,59015,Well-Represented Alloy
+IN718,Cp,Specific Heat,435,J/(kg·K),Mean solid specific heat,"Raghavan, N. et al. (2016)",10.1016/j.actamat.2016.03.063,59015,Well-Represented Alloy
+IN625,k,Thermal Conductivity,9.8,W/(m·K),Room Temp / Solution Annealed,"Special Metals Corp., Inconel 625 Technical Bulletin (2013)",SMC-027,38897,Tier C Target OOD Alloy
+IN625,A,Optical Absorptivity,0.65,dimensionless,"λ = 1070 nm, High Surface Oxidation","Trapp, J. et al., Applied Materials Today 9, 341-349 (2017)",10.1016/j.apmt.2017.08.006,38897,Tier C Target OOD Alloy
+IN625,Ts,Solidus Temperature,1563,K,Equilibrium Solidus,"Special Metals Corp. (2013)",SMC-027,38897,Tier C Target OOD Alloy
+IN625,Tl,Liquidus Temperature,1623,K,Equilibrium Liquidus,"Special Metals Corp. (2013)",SMC-027,38897,Tier C Target OOD Alloy
+IN625,rho,Density,8440,kg/m3,Solid density at 293 K,"Special Metals Corp. (2013)",SMC-027,38897,Tier C Target OOD Alloy
+IN625,Cp,Specific Heat,410,J/(kg·K),Mean solid specific heat,"Trapp, J. et al. (2017)",10.1016/j.apmt.2017.08.006,38897,Tier C Target OOD Alloy
+AlSi10Mg,k,Thermal Conductivity,150.0,W/(m·K),Room Temp / As-Built Outlier,"Kempen, K. et al., Physics Procedia 39, 439-446 (2012)",10.1016/j.phpro.2012.10.059,11629,Tier C Outlier Alloy
+AlSi10Mg,A,Optical Absorptivity,0.18,dimensionless,"λ = 1064 nm, High Reflectivity","Kempen, K. et al. (2012)",10.1016/j.phpro.2012.10.059,11629,Tier C Outlier Alloy
+AlSi10Mg,Ts,Solidus Temperature,830,K,Eutectic Solidus,"ASM Handbook Vol. 2, Properties: Nonferrous Alloys (1990)",ISBN:978-0871703781,11629,Tier C Outlier Alloy
+AlSi10Mg,Tl,Liquidus Temperature,873,K,Liquidus,"ASM Handbook Vol. 2 (1990)",ISBN:978-0871703781,11629,Tier C Outlier Alloy
+AlSi10Mg,rho,Density,2670,kg/m3,Solid density at 293 K,"Kempen, K. et al. (2012)",10.1016/j.phpro.2012.10.059,11629,Tier C Outlier Alloy
+AlSi10Mg,Cp,Specific Heat,910,J/(kg·K),Mean solid specific heat,"ASM Handbook Vol. 2 (1990)",ISBN:978-0871703781,11629,Tier C Outlier Alloy
+Hastelloy X,k,Thermal Conductivity,9.1,W/(m·K),Room Temp / Solution Heat Treated,"Haynes International, Hastelloy X Technical Bulletin (2018)",H-3009G,16441,Well-Represented Alloy
+Hastelloy X,A,Optical Absorptivity,0.41,dimensionless,"λ = 1070 nm, Powder Bed","Tomus, D. et al., Acta Materialia 61(13), 4809-4819 (2013)",10.1016/j.actamat.2013.04.060,16441,Well-Represented Alloy
+Hastelloy X,Ts,Solidus Temperature,1533,K,Equilibrium Solidus,"Haynes International (2018)",H-3009G,16441,Well-Represented Alloy
+Hastelloy X,Tl,Liquidus Temperature,1628,K,Equilibrium Liquidus,"Haynes International (2018)",H-3009G,16441,Well-Represented Alloy
+Hastelloy X,rho,Density,8220,kg/m3,Solid density at 293 K,"Haynes International (2018)",H-3009G,16441,Well-Represented Alloy
+Hastelloy X,Cp,Specific Heat,486,J/(kg·K),Mean solid specific heat,"Tomus, D. et al. (2013)",10.1016/j.actamat.2013.04.060,16441,Well-Represented Alloy
+SS17-4PH,k,Thermal Conductivity,17.9,W/(m·K),Room Temp / Condition A,"AK Steel, 17-4 PH Stainless Steel Product Data (2015)",AK-174PH,41303,Well-Represented Alloy
+SS17-4PH,A,Optical Absorptivity,0.43,dimensionless,"λ = 1064 nm, Powder Bed","Yadollahi, A. et al., Int. J. Fatigue 94, 218-235 (2017)",10.1016/j.ijfatigue.2016.03.014,41303,Well-Represented Alloy
+SS17-4PH,Ts,Solidus Temperature,1677,K,Equilibrium Solidus,"AK Steel (2015)",AK-174PH,41303,Well-Represented Alloy
+SS17-4PH,Tl,Liquidus Temperature,1713,K,Equilibrium Liquidus,"AK Steel (2015)",AK-174PH,41303,Well-Represented Alloy
+SS17-4PH,rho,Density,7800,kg/m3,Solid density at 293 K,"AK Steel (2015)",AK-174PH,41303,Well-Represented Alloy
+SS17-4PH,Cp,Specific Heat,460,J/(kg·K),Mean solid specific heat,"AK Steel (2015)",AK-174PH,41303,Well-Represented Alloy
+Co-Cr-Fe-Mn-Ni,k,Thermal Conductivity,14.8,W/(m·K),Room Temp / Equiatomic Cantor Alloy,"Gludovatz, B. et al., Science 345(6201), 1153-1158 (2014)",10.1126/science.1254581,30,Trace Alloy (<50 rows total)
+Co-Cr-Fe-Mn-Ni,A,Optical Absorptivity,0.39,dimensionless,"λ = 1064 nm, Laser Sintered","Brif, M. et al., Scripta Materialia 99, 93-96 (2015)",10.1016/j.scriptamat.2014.11.037,30,Trace Alloy (<50 rows total)
+Co-Cr-Fe-Mn-Ni,Ts,Solidus Temperature,1610,K,Melting Solidus,"Gludovatz, B. et al. (2014)",10.1126/science.1254581,30,Trace Alloy (<50 rows total)
+Co-Cr-Fe-Mn-Ni,Tl,Liquidus Temperature,1670,K,Melting Liquidus,"Gludovatz, B. et al. (2014)",10.1126/science.1254581,30,Trace Alloy (<50 rows total)
+Co-Cr-Fe-Mn-Ni,rho,Density,8020,kg/m3,Solid density at 293 K,"Gludovatz, B. et al. (2014)",10.1126/science.1254581,30,Trace Alloy (<50 rows total)
+Co-Cr-Fe-Mn-Ni,Cp,Specific Heat,450,J/(kg·K),Solid specific heat,"Gludovatz, B. et al. (2014)",10.1126/science.1254581,30,Trace Alloy (<50 rows total)

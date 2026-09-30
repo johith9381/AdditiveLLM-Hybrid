@@ -1,0 +1,7 @@
+{
+  "architectures": ["LlamaClassificationModel"],
+  "model_path": "model.py",
+  "num_labels": 4,
+  "head_dim": 64,
+  "hidden_size": 2048
+}

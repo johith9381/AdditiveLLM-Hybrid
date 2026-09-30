@@ -1,0 +1,91 @@
+{
+  "title": "Table 1: Multi-Label Defect Classification Performance Comparison across Models and Input Formats",
+  "citation": "Pak & Farimani (2025), Additive Manufacturing Letters 14 (2025) 100292",
+  "dataset_split": "Validation Baseline (72,475 samples) & Validation Prompt",
+  "models": {
+    "llama": {
+      "name": "LLaMA-3.2-1B",
+      "architecture": "Decoder (Autoregressive)",
+      "parameters": "1,236M",
+      "baseline": {
+        "accuracy": 94.23,
+        "macro_f1": 0.9059,
+        "micro_f1": 0.9048,
+        "exact_match_ratio": 79.52,
+        "epochs": 25,
+        "status": "Verified Official Checkpoint"
+      },
+      "prompt": {
+        "accuracy": 64.32,
+        "macro_f1": 0.6138,
+        "micro_f1": 0.6125,
+        "exact_match_ratio": 44.12,
+        "epochs": 2,
+        "status": "Verified Official Checkpoint"
+      }
+    },
+    "scibert": {
+      "name": "SciBERT",
+      "architecture": "Bidirectional Encoder (Scientific Domain Pretrained)",
+      "parameters": "110M",
+      "baseline": {
+        "accuracy": 90.88,
+        "macro_f1": 0.8480,
+        "micro_f1": 0.8471,
+        "exact_match_ratio": 73.15,
+        "epochs": 25,
+        "status": "Verified Official Checkpoint"
+      },
+      "prompt": {
+        "accuracy": 81.40,
+        "macro_f1": 0.6801,
+        "micro_f1": 0.6792,
+        "exact_match_ratio": 57.30,
+        "epochs": 2,
+        "status": "Verified Official Checkpoint"
+      }
+    },
+    "distilbert": {
+      "name": "DistilBERT",
+      "architecture": "Bidirectional Encoder (Distilled)",
+      "parameters": "66M",
+      "baseline": {
+        "accuracy": 88.41,
+        "macro_f1": 0.7959,
+        "micro_f1": 0.7948,
+        "exact_match_ratio": 68.24,
+        "epochs": 25,
+        "status": "Verified Official Checkpoint"
+      },
+      "prompt": {
+        "accuracy": 82.22,
+        "macro_f1": 0.7140,
+        "micro_f1": 0.7138,
+        "exact_match_ratio": 59.81,
+        "epochs": 2,
+        "status": "Verified Official Checkpoint"
+      }
+    },
+    "t5": {
+      "name": "T5-Small",
+      "architecture": "Encoder-Decoder (Encoder representations)",
+      "parameters": "60M",
+      "baseline": {
+        "accuracy": 71.41,
+        "macro_f1": 0.5548,
+        "micro_f1": 0.5539,
+        "exact_match_ratio": 41.20,
+        "epochs": 25,
+        "status": "Verified Official Checkpoint"
+      },
+      "prompt": {
+        "accuracy": 79.65,
+        "macro_f1": 0.6536,
+        "micro_f1": 0.6528,
+        "exact_match_ratio": 54.10,
+        "epochs": 2,
+        "status": "Verified Official Checkpoint"
+      }
+    }
+  }
+}

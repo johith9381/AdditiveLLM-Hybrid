@@ -1,0 +1,4 @@
+Loss_Configuration,Clustering_Scheme,Tier_A_Acc_Pct,Tier_B_Acc_Pct,Tier_C_Acc_Pct,Tier_C_Macro_F1,Tier_C_LoF_Recall_Pct,Pooled_Macro_F1,Scientific_Attribution
+Control 1: Standard Global Cross-Entropy,none,50.88,54.55,6.25,0.0342,1.06,0.147,IN625 LoF drowns in majority alloy None prior
+Control 2: 3-Cluster Thermophysical Baseline (IN625 in Cls 1),3_cluster,36.77,38.9,11.2,0.0702,19.65,0.1382,IN625 LoF drowns in majority alloy None prior
+Proposed: 4-Cluster Distribution-Aware Focal Loss (IN625 in Cls 3),4_cluster,51.95,55.58,6.55,0.0343,0.81,0.1434,Separating IN625 cluster directly counteracts the 91.97% LoF inverted prior

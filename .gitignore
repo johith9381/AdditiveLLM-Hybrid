@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large model binaries and PyTorch weights (>100MB exceeds GitHub push limits)
+checkpoints/*.pt
+checkpoints/checkpoint_*.pt
+checkpoints/physics_first_checkpoint.pt
+
+# Raw datasets and old random splits
+data/raw/
+data/splits/
+
+# Virtual environments
+venv/
+venv
+.env
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+.chrome_user_data/
+
+# Temporary logs and runtime pids
+*.log
+*.pid
+catboost_info/
+logs/chrome_profile/
+
+# Archives
+*.zip
+*.tar.gz

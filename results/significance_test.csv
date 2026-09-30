@@ -1,0 +1,37 @@
+Tier,Format,Baseline_Model,Metric,Hybrid_Mean,Baseline_Mean,Mean_Difference,Paired_t_Statistic,Paired_t_PValue,Wilcoxon_PValue,Statistically_Significant_p05,Conclusion
+Tier A,Baseline,DistilBERT,Accuracy (%),97.14,78.45,18.69,65.5285,3.2490e-07,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Baseline,DistilBERT,Macro F1,0.9457,0.3468,0.5989,24.5609,1.6308e-05,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Baseline,SciBERT,Accuracy (%),97.14,83.01,14.13,13.3986,1.7945e-04,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Baseline,SciBERT,Macro F1,0.9457,0.5215,0.4242,7.348,1.8267e-03,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Baseline,T5-Small,Accuracy (%),97.14,77.57,19.57,13.5868,1.6988e-04,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Baseline,T5-Small,Macro F1,0.9457,0.2997,0.646,20.4993,3.3445e-05,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Prompt,DistilBERT,Accuracy (%),96.37,73.86,22.51,13.748,1.6219e-04,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Prompt,DistilBERT,Macro F1,0.9352,0.3061,0.6291,40.4069,2.2416e-06,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Prompt,SciBERT,Accuracy (%),96.37,76.11,20.26,72.8466,2.1280e-07,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Prompt,SciBERT,Macro F1,0.9352,0.3095,0.6257,34.3678,4.2766e-06,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Prompt,T5-Small,Accuracy (%),96.37,74.84,21.53,18.3598,5.1777e-05,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier A,Prompt,T5-Small,Macro F1,0.9352,0.2381,0.6971,24.2759,1.7083e-05,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Baseline,DistilBERT,Accuracy (%),97.29,78.51,18.78,23.363,1.9895e-05,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Baseline,DistilBERT,Macro F1,0.9063,0.329,0.5773,31.9686,5.7073e-06,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Baseline,SciBERT,Accuracy (%),97.29,81.84,15.45,35.3287,3.8311e-06,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Baseline,SciBERT,Macro F1,0.9063,0.4797,0.4266,9.8684,5.9157e-04,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Baseline,T5-Small,Accuracy (%),97.29,77.62,19.67,15.0722,1.1293e-04,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Baseline,T5-Small,Macro F1,0.9063,0.2905,0.6158,22.1151,2.4746e-05,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Prompt,DistilBERT,Accuracy (%),96.63,73.52,23.11,11.9858,2.7771e-04,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Prompt,DistilBERT,Macro F1,0.9055,0.2926,0.6129,32.3569,5.4391e-06,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Prompt,SciBERT,Accuracy (%),96.63,77.79,18.84,38.7939,2.6374e-06,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Prompt,SciBERT,Macro F1,0.9055,0.3213,0.5843,30.3414,7.0286e-06,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Prompt,T5-Small,Accuracy (%),96.63,75.1,21.53,26.9832,1.1215e-05,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier B,Prompt,T5-Small,Macro F1,0.9055,0.2311,0.6745,29.4397,7.9266e-06,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier C,Baseline,DistilBERT,Accuracy (%),57.44,73.83,-16.39,-2.5055,6.6374e-02,1.2500e-01,False,Baseline Superior
+Tier C,Baseline,DistilBERT,Macro F1,0.1973,0.1935,0.0038,0.0864,9.3527e-01,6.2500e-01,False,No Significant Difference (p >= 0.05)
+Tier C,Baseline,SciBERT,Accuracy (%),57.44,78.83,-21.39,-12.616,2.2724e-04,6.2500e-02,False,Baseline Superior
+Tier C,Baseline,SciBERT,Macro F1,0.1973,0.266,-0.0687,-3.5702,2.3371e-02,6.2500e-02,False,Baseline Superior
+Tier C,Baseline,T5-Small,Accuracy (%),57.44,63.42,-5.98,-0.8141,4.6125e-01,4.3750e-01,False,Baseline Superior
+Tier C,Baseline,T5-Small,Macro F1,0.1973,0.1572,0.0401,1.0786,3.4148e-01,6.2500e-01,False,No Significant Difference (p >= 0.05)
+Tier C,Prompt,DistilBERT,Accuracy (%),66.56,76.32,-9.76,-2.8573,4.6055e-02,1.2500e-01,False,Baseline Superior
+Tier C,Prompt,DistilBERT,Macro F1,0.2797,0.2326,0.0471,4.8998,8.0449e-03,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier C,Prompt,SciBERT,Accuracy (%),66.56,61.22,5.34,2.0786,1.0619e-01,1.2500e-01,False,No Significant Difference (p >= 0.05)
+Tier C,Prompt,SciBERT,Macro F1,0.2797,0.1922,0.0875,4.3483,1.2173e-02,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)
+Tier C,Prompt,T5-Small,Accuracy (%),66.56,50.88,15.68,3.4676,2.5639e-02,1.2500e-01,True,Hybrid Statistically Superior (p < 0.05)
+Tier C,Prompt,T5-Small,Macro F1,0.2797,0.0964,0.1833,6.7947,2.4503e-03,6.2500e-02,True,Hybrid Statistically Superior (p < 0.05)

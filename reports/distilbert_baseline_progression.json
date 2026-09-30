@@ -1,0 +1,597 @@
+{
+  "5": {
+    "epoch": 5,
+    "overall_accuracy": 0.8422835460503622,
+    "exact_match_ratio": 0.6112452569851673,
+    "macro_f1": 0.6715833764903989,
+    "micro_f1": 0.723078227584369,
+    "per_class": {
+      "None": {
+        "binary_accuracy": 0.7738668506381511,
+        "precision": 0.7500796195248307,
+        "recall": 0.8843939318079407,
+        "f1_score": 0.8117180768567982,
+        "support": 39946,
+        "true_positive": 35328,
+        "false_positive": 11771,
+        "true_negative": 20758,
+        "false_negative": 4618
+      },
+      "Keyhole": {
+        "binary_accuracy": 0.8741359089341152,
+        "precision": 0.6997650550265859,
+        "recall": 0.4581073423459888,
+        "f1_score": 0.5537181996086106,
+        "support": 12353,
+        "true_positive": 5659,
+        "false_positive": 2428,
+        "true_negative": 57694,
+        "false_negative": 6694
+      },
+      "Lack of Fusion": {
+        "binary_accuracy": 0.758882373232149,
+        "precision": 0.9055482543854637,
+        "recall": 0.5004104831070414,
+        "f1_score": 0.6446075939069776,
+        "support": 31670,
+        "true_positive": 15848,
+        "false_positive": 1653,
+        "true_negative": 39152,
+        "false_negative": 15822
+      },
+      "Balling": {
+        "binary_accuracy": 0.9622490513970334,
+        "precision": 0.8984596038981453,
+        "recall": 0.542212103965092,
+        "f1_score": 0.6762896355892096,
+        "support": 5271,
+        "true_positive": 2858,
+        "false_positive": 323,
+        "true_negative": 66881,
+        "false_negative": 2413
+      }
+    },
+    "confusion_matrices": {
+      "None": {
+        "tn": 20758,
+        "fp": 11771,
+        "fn": 4618,
+        "tp": 35328,
+        "matrix": [
+          [
+            20758,
+            11771
+          ],
+          [
+            4618,
+            35328
+          ]
+        ]
+      },
+      "Keyhole": {
+        "tn": 57694,
+        "fp": 2428,
+        "fn": 6694,
+        "tp": 5659,
+        "matrix": [
+          [
+            57694,
+            2428
+          ],
+          [
+            6694,
+            5659
+          ]
+        ]
+      },
+      "Lack of Fusion": {
+        "tn": 39152,
+        "fp": 1653,
+        "fn": 15822,
+        "tp": 15848,
+        "matrix": [
+          [
+            39152,
+            1653
+          ],
+          [
+            15822,
+            15848
+          ]
+        ]
+      },
+      "Balling": {
+        "tn": 66881,
+        "fp": 323,
+        "fn": 2413,
+        "tp": 2858,
+        "matrix": [
+          [
+            66881,
+            323
+          ],
+          [
+            2413,
+            2858
+          ]
+        ]
+      }
+    }
+  },
+  "10": {
+    "epoch": 10,
+    "overall_accuracy": 0.8775370817523284,
+    "exact_match_ratio": 0.6753087271472922,
+    "macro_f1": 0.7581823490129802,
+    "micro_f1": 0.7982061250937862,
+    "per_class": {
+      "None": {
+        "binary_accuracy": 0.830134529147982,
+        "precision": 0.8034212433298931,
+        "recall": 0.9159114804986732,
+        "f1_score": 0.8559864303679008,
+        "support": 39946,
+        "true_positive": 36587,
+        "false_positive": 8952,
+        "true_negative": 23577,
+        "false_negative": 3359
+      },
+      "Keyhole": {
+        "binary_accuracy": 0.8796274577440497,
+        "precision": 0.6713247096591446,
+        "recall": 0.5755686877681535,
+        "f1_score": 0.6197698744769874,
+        "support": 12353,
+        "true_positive": 7110,
+        "false_positive": 3481,
+        "true_negative": 56641,
+        "false_negative": 5243
+      },
+      "Lack of Fusion": {
+        "binary_accuracy": 0.8337081752328389,
+        "precision": 0.8858772619984264,
+        "recall": 0.7110514682664982,
+        "f1_score": 0.7888947276230514,
+        "support": 31670,
+        "true_positive": 22519,
+        "false_positive": 2901,
+        "true_negative": 37904,
+        "false_negative": 9151
+      },
+      "Balling": {
+        "binary_accuracy": 0.9666781648844429,
+        "precision": 0.7777129521586931,
+        "recall": 0.7586795674445077,
+        "f1_score": 0.7680783635839815,
+        "support": 5271,
+        "true_positive": 3999,
+        "false_positive": 1143,
+        "true_negative": 66061,
+        "false_negative": 1272
+      }
+    },
+    "confusion_matrices": {
+      "None": {
+        "tn": 23577,
+        "fp": 8952,
+        "fn": 3359,
+        "tp": 36587,
+        "matrix": [
+          [
+            23577,
+            8952
+          ],
+          [
+            3359,
+            36587
+          ]
+        ]
+      },
+      "Keyhole": {
+        "tn": 56641,
+        "fp": 3481,
+        "fn": 5243,
+        "tp": 7110,
+        "matrix": [
+          [
+            56641,
+            3481
+          ],
+          [
+            5243,
+            7110
+          ]
+        ]
+      },
+      "Lack of Fusion": {
+        "tn": 37904,
+        "fp": 2901,
+        "fn": 9151,
+        "tp": 22519,
+        "matrix": [
+          [
+            37904,
+            2901
+          ],
+          [
+            9151,
+            22519
+          ]
+        ]
+      },
+      "Balling": {
+        "tn": 66061,
+        "fp": 1143,
+        "fn": 1272,
+        "tp": 3999,
+        "matrix": [
+          [
+            66061,
+            1143
+          ],
+          [
+            1272,
+            3999
+          ]
+        ]
+      }
+    }
+  },
+  "15": {
+    "epoch": 15,
+    "overall_accuracy": 0.8775370817523284,
+    "exact_match_ratio": 0.6261883408071749,
+    "macro_f1": 0.7086720835792859,
+    "micro_f1": 0.7722858645594141,
+    "per_class": {
+      "None": {
+        "binary_accuracy": 0.8300103483959986,
+        "precision": 0.9156786036713813,
+        "recall": 0.7617283332498873,
+        "f1_score": 0.8316387886738822,
+        "support": 39946,
+        "true_positive": 30428,
+        "false_positive": 2802,
+        "true_negative": 29727,
+        "false_negative": 9518
+      },
+      "Keyhole": {
+        "binary_accuracy": 0.8640910658847879,
+        "precision": 0.8595231255386383,
+        "recall": 0.24220837043633126,
+        "f1_score": 0.37792092964506757,
+        "support": 12353,
+        "true_positive": 2992,
+        "false_positive": 489,
+        "true_negative": 59633,
+        "false_negative": 9361
+      },
+      "Lack of Fusion": {
+        "binary_accuracy": 0.8400137978613315,
+        "precision": 0.9010027565818385,
+        "recall": 0.7121250394695295,
+        "f1_score": 0.7955062520943194,
+        "support": 31670,
+        "true_positive": 22553,
+        "false_positive": 2478,
+        "true_negative": 38327,
+        "false_negative": 9117
+      },
+      "Balling": {
+        "binary_accuracy": 0.9760331148671956,
+        "precision": 0.8588545897644192,
+        "recall": 0.8023145513185354,
+        "f1_score": 0.8296223639038744,
+        "support": 5271,
+        "true_positive": 4229,
+        "false_positive": 695,
+        "true_negative": 66509,
+        "false_negative": 1042
+      }
+    },
+    "confusion_matrices": {
+      "None": {
+        "tn": 29727,
+        "fp": 2802,
+        "fn": 9518,
+        "tp": 30428,
+        "matrix": [
+          [
+            29727,
+            2802
+          ],
+          [
+            9518,
+            30428
+          ]
+        ]
+      },
+      "Keyhole": {
+        "tn": 59633,
+        "fp": 489,
+        "fn": 9361,
+        "tp": 2992,
+        "matrix": [
+          [
+            59633,
+            489
+          ],
+          [
+            9361,
+            2992
+          ]
+        ]
+      },
+      "Lack of Fusion": {
+        "tn": 38327,
+        "fp": 2478,
+        "fn": 9117,
+        "tp": 22553,
+        "matrix": [
+          [
+            38327,
+            2478
+          ],
+          [
+            9117,
+            22553
+          ]
+        ]
+      },
+      "Balling": {
+        "tn": 66509,
+        "fp": 695,
+        "fn": 1042,
+        "tp": 4229,
+        "matrix": [
+          [
+            66509,
+            695
+          ],
+          [
+            1042,
+            4229
+          ]
+        ]
+      }
+    }
+  },
+  "20": {
+    "epoch": 20,
+    "overall_accuracy": 0.882945843394274,
+    "exact_match_ratio": 0.7122042083477061,
+    "macro_f1": 0.7881745020644979,
+    "micro_f1": 0.8160120583833959,
+    "per_class": {
+      "None": {
+        "binary_accuracy": 0.8285891686788548,
+        "precision": 0.7764519174752406,
+        "recall": 0.9675812346668001,
+        "f1_score": 0.8615436054611312,
+        "support": 39946,
+        "true_positive": 38651,
+        "false_positive": 11128,
+        "true_negative": 21401,
+        "false_negative": 1295
+      },
+      "Keyhole": {
+        "binary_accuracy": 0.8814211797171438,
+        "precision": 0.6428734321550741,
+        "recall": 0.6846110256617826,
+        "f1_score": 0.6630860906382311,
+        "support": 12353,
+        "true_positive": 8457,
+        "false_positive": 4698,
+        "true_negative": 55424,
+        "false_negative": 3896
+      },
+      "Lack of Fusion": {
+        "binary_accuracy": 0.8528044153156261,
+        "precision": 0.9139140717382735,
+        "recall": 0.7321124092200821,
+        "f1_score": 0.8129733520336606,
+        "support": 31670,
+        "true_positive": 23186,
+        "false_positive": 2184,
+        "true_negative": 38621,
+        "false_negative": 8484
+      },
+      "Balling": {
+        "binary_accuracy": 0.9689686098654708,
+        "precision": 0.7192396982008126,
+        "recall": 0.9404287611458926,
+        "f1_score": 0.8150949601249692,
+        "support": 5271,
+        "true_positive": 4957,
+        "false_positive": 1935,
+        "true_negative": 65269,
+        "false_negative": 314
+      }
+    },
+    "confusion_matrices": {
+      "None": {
+        "tn": 21401,
+        "fp": 11128,
+        "fn": 1295,
+        "tp": 38651,
+        "matrix": [
+          [
+            21401,
+            11128
+          ],
+          [
+            1295,
+            38651
+          ]
+        ]
+      },
+      "Keyhole": {
+        "tn": 55424,
+        "fp": 4698,
+        "fn": 3896,
+        "tp": 8457,
+        "matrix": [
+          [
+            55424,
+            4698
+          ],
+          [
+            3896,
+            8457
+          ]
+        ]
+      },
+      "Lack of Fusion": {
+        "tn": 38621,
+        "fp": 2184,
+        "fn": 8484,
+        "tp": 23186,
+        "matrix": [
+          [
+            38621,
+            2184
+          ],
+          [
+            8484,
+            23186
+          ]
+        ]
+      },
+      "Balling": {
+        "tn": 65269,
+        "fp": 1935,
+        "fn": 314,
+        "tp": 4957,
+        "matrix": [
+          [
+            65269,
+            1935
+          ],
+          [
+            314,
+            4957
+          ]
+        ]
+      }
+    }
+  },
+  "25": {
+    "epoch": 25,
+    "overall_accuracy": 0.8841876509141082,
+    "exact_match_ratio": 0.6953708175232839,
+    "macro_f1": 0.7699273776285123,
+    "micro_f1": 0.7959151419366604,
+    "per_class": {
+      "None": {
+        "binary_accuracy": 0.8752535357019662,
+        "precision": 0.8536931493053171,
+        "recall": 0.9336854753917789,
+        "f1_score": 0.8918993244455072,
+        "support": 39946,
+        "true_positive": 37297,
+        "false_positive": 6392,
+        "true_negative": 26137,
+        "false_negative": 2649
+      },
+      "Keyhole": {
+        "binary_accuracy": 0.897302518109693,
+        "precision": 0.8207473216618761,
+        "recall": 0.5085404355217356,
+        "f1_score": 0.6279802069275754,
+        "support": 12353,
+        "true_positive": 6282,
+        "false_positive": 1372,
+        "true_negative": 58750,
+        "false_negative": 6071
+      },
+      "Lack of Fusion": {
+        "binary_accuracy": 0.7829320455329424,
+        "precision": 0.932205228332791,
+        "recall": 0.5427218187559204,
+        "f1_score": 0.686038157579628,
+        "support": 31670,
+        "true_positive": 17188,
+        "false_positive": 1250,
+        "true_negative": 39555,
+        "false_negative": 14482
+      },
+      "Balling": {
+        "binary_accuracy": 0.9812625043118317,
+        "precision": 0.8564401530333394,
+        "recall": 0.8918611269208879,
+        "f1_score": 0.8737918215613383,
+        "support": 5271,
+        "true_positive": 4701,
+        "false_positive": 788,
+        "true_negative": 66416,
+        "false_negative": 570
+      }
+    },
+    "confusion_matrices": {
+      "None": {
+        "tn": 26137,
+        "fp": 6392,
+        "fn": 2649,
+        "tp": 37297,
+        "matrix": [
+          [
+            26137,
+            6392
+          ],
+          [
+            2649,
+            37297
+          ]
+        ]
+      },
+      "Keyhole": {
+        "tn": 58750,
+        "fp": 1372,
+        "fn": 6071,
+        "tp": 6282,
+        "matrix": [
+          [
+            58750,
+            1372
+          ],
+          [
+            6071,
+            6282
+          ]
+        ]
+      },
+      "Lack of Fusion": {
+        "tn": 39555,
+        "fp": 1250,
+        "fn": 14482,
+        "tp": 17188,
+        "matrix": [
+          [
+            39555,
+            1250
+          ],
+          [
+            14482,
+            17188
+          ]
+        ]
+      },
+      "Balling": {
+        "tn": 66416,
+        "fp": 788,
+        "fn": 570,
+        "tp": 4701,
+        "matrix": [
+          [
+            66416,
+            788
+          ],
+          [
+            570,
+            4701
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "baseline": {
+    "distilbert": {
+      "5": {
+        "repo_id": "ppak10/defect-classification-distilbert-baseline-05-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "10": {
+        "repo_id": "ppak10/defect-classification-distilbert-baseline-10-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "15": {
+        "repo_id": "ppak10/defect-classification-distilbert-baseline-15-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "20": {
+        "repo_id": "ppak10/defect-classification-distilbert-baseline-20-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "25": {
+        "repo_id": "ppak10/defect-classification-distilbert-baseline-25-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      }
+    },
+    "scibert": {
+      "5": {
+        "repo_id": "ppak10/defect-classification-scibert-baseline-05-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "10": {
+        "repo_id": "ppak10/defect-classification-scibert-baseline-10-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "15": {
+        "repo_id": "ppak10/defect-classification-scibert-baseline-15-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "20": {
+        "repo_id": "ppak10/defect-classification-scibert-baseline-20-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "25": {
+        "repo_id": "ppak10/defect-classification-scibert-baseline-25-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      }
+    },
+    "t5": {
+      "5": {
+        "repo_id": "ppak10/defect-classification-t5-baseline-05-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "10": {
+        "repo_id": "ppak10/defect-classification-t5-baseline-10-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "15": {
+        "repo_id": "ppak10/defect-classification-t5-baseline-15-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "20": {
+        "repo_id": "ppak10/defect-classification-t5-baseline-20-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "25": {
+        "repo_id": "ppak10/defect-classification-t5-baseline-25-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      }
+    },
+    "llama": {
+      "5": {
+        "repo_id": "ppak10/defect-classification-llama-baseline-05-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 8
+      },
+      "10": {
+        "repo_id": "ppak10/defect-classification-llama-baseline-10-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 8
+      },
+      "15": {
+        "repo_id": "ppak10/defect-classification-llama-baseline-15-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 8
+      },
+      "20": {
+        "repo_id": "ppak10/defect-classification-llama-baseline-20-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 7
+      },
+      "25": {
+        "repo_id": "ppak10/defect-classification-llama-baseline-25-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 10
+      }
+    }
+  },
+  "prompt": {
+    "distilbert": {
+      "2": {
+        "repo_id": "ppak10/defect-classification-distilbert-prompt-02-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "5": {
+        "repo_id": "ppak10/defect-classification-distilbert-prompt-05-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      }
+    },
+    "scibert": {
+      "2": {
+        "repo_id": "ppak10/defect-classification-scibert-prompt-02-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "5": {
+        "repo_id": "ppak10/defect-classification-scibert-prompt-05-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      }
+    },
+    "t5": {
+      "2": {
+        "repo_id": "ppak10/defect-classification-t5-prompt-02-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      },
+      "5": {
+        "repo_id": "ppak10/defect-classification-t5-prompt-05-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 9
+      }
+    },
+    "llama": {
+      "0.5": {
+        "repo_id": "ppak10/defect-classification-llama-prompt-0.5-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 8
+      },
+      "2": {
+        "repo_id": "ppak10/defect-classification-llama-prompt-02-epochs",
+        "available": true,
+        "status_code": 200,
+        "has_classification_head": true,
+        "file_count": 8
+      }
+    }
+  },
+  "summary": {
+    "total_targeted": 28,
+    "available_count": 28,
+    "missing_count": 0,
+    "missing_repos": []
+  }
+}

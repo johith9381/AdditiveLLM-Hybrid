@@ -1,0 +1,21 @@
+Feature_Index,Feature_Name,Mathematical_Definition,Source_Data,Contains_Ground_Truth_Label,Contains_Simulated_Geometry,Status
+0,norm_power,(P - 180.0) / 100.0,Laser Power P (W) from machine G-code / text input,False,False,CERTIFIED_LEAKAGE_FREE
+1,norm_velocity,(v - 1000.0) / 600.0,Scan Speed v (mm/s) from machine G-code / text input,False,False,CERTIFIED_LEAKAGE_FREE
+2,norm_beam_diameter,(d_beam - 90.0) / 30.0,Laser Spot Diameter d (microns) from machine optics,False,False,CERTIFIED_LEAKAGE_FREE
+3,norm_hatch_spacing,(h - 120.0) / 60.0,Hatch Spacing h (microns) from scan pattern pathing,False,False,CERTIFIED_LEAKAGE_FREE
+4,norm_layer_height,(t - 40.0) / 20.0,Layer Thickness t (microns) from recoater blade setting,False,False,CERTIFIED_LEAKAGE_FREE
+5,material_idx,"Integer categorical mapping [0, 29]",Alloy chemistry designation from text input,False,False,CERTIFIED_LEAKAGE_FREE
+6,linear_energy_density_LED,P / v (J/mm),Laser Power / Scan Speed,False,False,CERTIFIED_LEAKAGE_FREE
+7,volumetric_energy_density_VED,P / (v * h * t) (J/mm^3),Standard AM energy density formula,False,False,CERTIFIED_LEAKAGE_FREE
+8,areal_energy_density_AED,P / (v * h) (J/mm^2),Planar laser energy delivery,False,False,CERTIFIED_LEAKAGE_FREE
+9,power_to_beam_ratio,P / d_beam (W/micron),Linear laser intensity proxy,False,False,CERTIFIED_LEAKAGE_FREE
+10,hatch_to_beam_aspect_ratio,h / d_beam (dimensionless),Track overlap geometry,False,False,CERTIFIED_LEAKAGE_FREE
+11,layer_to_beam_aspect_ratio,t / d_beam (dimensionless),Layer penetration aspect ratio,False,False,CERTIFIED_LEAKAGE_FREE
+12,rosenthal_w_um_norm,Rosenthal width w / 200.0 (dimensionless),3D Rosenthal conduction solution using handbook properties,False,False,CERTIFIED_LEAKAGE_FREE
+13,rosenthal_d_um_norm,Rosenthal depth d / 100.0 (dimensionless),3D Rosenthal conduction + keyhole factor using handbook properties,False,False,CERTIFIED_LEAKAGE_FREE
+14,rosenthal_l_um_norm,Rosenthal length l / 500.0 (dimensionless),3D Rosenthal elongation model using handbook properties,False,False,CERTIFIED_LEAKAGE_FREE
+15,normalized_enthalpy_beta,"(A * P) / (pi * rho * Cp * deltaT * sqrt(alpha * v * sigma^3))",Dimensionless enthalpy proxy (Rubenchik & King 2018),False,False,CERTIFIED_LEAKAGE_FREE
+16,peclet_number_Pe,(v * sigma) / alpha (dimensionless),Thermal Peclet number (advection to diffusion ratio),False,False,CERTIFIED_LEAKAGE_FREE
+17,physics_w_over_d_ratio,(w / d) / 2.0 (dimensionless),Analytical melt pool aspect ratio,False,False,CERTIFIED_LEAKAGE_FREE
+18,physics_l_over_w_ratio,(l / w) / 3.0 (dimensionless),Rayleigh-Plateau hydrodynamic instability proxy,False,False,CERTIFIED_LEAKAGE_FREE
+19,physics_lof_geom_metric,"((h/w)^2 + (t/d)^2) / 2.0 (dimensionless)",Tang et al. (2017) geometric lack-of-fusion criterion,False,False,CERTIFIED_LEAKAGE_FREE

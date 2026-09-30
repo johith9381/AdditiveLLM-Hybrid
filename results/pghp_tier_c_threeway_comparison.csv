@@ -1,0 +1,4 @@
+Methodology,Description,Tier_C_Accuracy_Pct,Tier_C_Macro_F1,Recall_None,Recall_LoF,Verified_Source
+1. Pure Physics Baseline (Rosenthal Closed-Form),Zero-learning first-principles solution evaluated on Tier C,9.92,0.2582,0.0077,0.8594,results/physics_only_tierc_baseline.csv
+2. Previous Best Black-Box Stack,5-branch ungrounded hybrid model from prior round,65.66,0.5247,0.281,0.912,results/final_accuracy_push_summary.csv (Step 7)
+3. Full PGHP (Physics + Residual Ensemble),Rosenthal priors + Tri-model stacking + Threshold calibration,24.59,0.2404,0.321,0.945,results/final_accuracy_push_summary.csv (Step 8)

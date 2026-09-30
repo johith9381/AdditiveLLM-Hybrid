@@ -1,0 +1,3 @@
+approach,dataset_rows,storage_expansion_ratio,peak_ram_mb,prep_time_sec,time_per_epoch_sec,throughput_samples_per_sec,val_accuracy_pct,val_macro_f1,relative_ram
+Static Expansion (Paper Method),6000,10.0x,748.58,0.018,59.58,100.7,51.5,0.517,100.0% (Baseline)
+On-The-Fly Sampling (Proposed Hybrid),600,1.0x (Natural Base),814.3,0.0,6.42,93.5,51.5,0.515,108.8%

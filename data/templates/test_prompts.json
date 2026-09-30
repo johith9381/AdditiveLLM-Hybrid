@@ -1,0 +1,17 @@
+{
+  "0": "Can you detail the potential imperfections that arise in <material> manufactured via L-PBF at <power>, utilizing a <beam_diameter> beam, traveling at <velocity>, with a hatch spacing of <hatch_spacing>, and a layer thickness of <layer_height>?",
+  "1": "What types of microstructural issues are commonly seen in <material> parts produced by L-PBF with a laser power of <power>, a beam diameter of <beam_diameter>, a scan speed of <velocity>, a hatch spacing of <hatch_spacing>, and a layer height of <layer_height>?",
+  "2": "In the L-PBF fabrication of <material>, using <power> power, a <beam_diameter> beam diameter, a scanning velocity of <velocity>, a hatch spacing of <hatch_spacing>, and a layer height of <layer_height>, what defects are typically encountered?",
+  "3": "Which manufacturing flaws tend to appear in <material> components created through L-PBF at <power>, employing a <beam_diameter> beam, moving at <velocity>, with <hatch_spacing> hatch spacing, and a <layer_height> layer thickness?",
+  "4": "Could you outline the characteristic defects observed in <material> formed by L-PBF when operating at <power>, with a <beam_diameter> laser beam, scanning at <velocity>, using a hatch spacing of <hatch_spacing>, and layering at <layer_height>?",
+  "5": "What recurring defect patterns are seen in <material> L-PBF builds at <power> laser power, <beam_diameter> beam diameter, <velocity> scan speed, <hatch_spacing> spacing, and a layer height of <layer_height>?",
+  "6": "For L-PBF of <material> under conditions of <power> power, <beam_diameter> beam, <velocity> scan rate, <hatch_spacing> hatch spacing, and <layer_height> layer thickness, what sorts of metallurgical anomalies might occur?",
+  "7": "In the additive manufacturing of <material> using L-PBF at <power>, with a <beam_diameter> beam, scanning at <velocity>, and using <hatch_spacing> and <layer_height> as key parameters, what defects commonly form?",
+  "8": "What undesirable microstructural features develop in <material> when processed via L-PBF at <power>, featuring a <beam_diameter> beam, a <velocity> scan speed, a hatch spacing of <hatch_spacing>, and a layer height of <layer_height>?",
+  "9": "In an L-PBF setting for <material>, given <power> laser power, a beam diameter of <beam_diameter>, a scanning speed of <velocity>, a hatch spacing of <hatch_spacing>, and a layer height of <layer_height>, what defects might be prevalent?",
+  "10": "What kinds of porosity or cracking issues can arise in <material> made by L-PBF at <power>, using a <beam_diameter> beam diameter, a <velocity> scanning speed, a hatch spacing of <hatch_spacing>, and a layer height of <layer_height>?",
+  "11": "When producing <material> via L-PBF with parameters set to <power>, <beam_diameter>, <velocity>, <hatch_spacing>, and <layer_height>, what structural defects can be expected to occur?",
+  "12": "Which defect phenomena are often linked to the specified L-PBF parameters (<power>, <beam_diameter>, <velocity>, <hatch_spacing>, <layer_height>) when working with <material>?",
+  "13": "How do the chosen L-PBF processing conditions (<power> power, <beam_diameter> beam, <velocity> speed, <hatch_spacing> spacing, <layer_height> thickness) influence the types of defects found in <material> builds?",
+  "14": "Under the given L-PBF conditions for <material>—that is, <power> laser power, a <beam_diameter> diameter beam, a <velocity> scanning velocity, a <hatch_spacing> spacing, and a <layer_height> thick layer—what defects are likely to manifest?"
+}

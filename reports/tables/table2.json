@@ -1,0 +1,55 @@
+{
+  "title": "Table 2: Training Progression of Baseline Fine-Tuned Models over 25 Epochs (Validation Accuracy %)",
+  "citation": "Pak & Farimani (2025), Additive Manufacturing Letters 14 (2025) 100292",
+  "dataset_split": "Validation Baseline (72,475 samples)",
+  "epochs": [5, 10, 15, 20, 25],
+  "models": {
+    "llama": {
+      "name": "LLaMA-3.2-1B",
+      "5": 89.18,
+      "10": 91.66,
+      "15": 92.94,
+      "20": 93.01,
+      "25": 94.23,
+      "best_epoch": 25,
+      "best_accuracy": 94.23
+    },
+    "scibert": {
+      "name": "SciBERT",
+      "5": 88.29,
+      "10": 88.93,
+      "15": 88.99,
+      "20": 91.32,
+      "25": 90.88,
+      "best_epoch": 20,
+      "best_accuracy": 91.32
+    },
+    "distilbert": {
+      "name": "DistilBERT",
+      "5": 84.22,
+      "10": 87.75,
+      "15": 87.75,
+      "20": 88.29,
+      "25": 88.41,
+      "best_epoch": 25,
+      "best_accuracy": 88.41,
+      "reproduced_progression": {
+        "5": {"accuracy": 84.23, "macro_f1": 0.6716, "micro_f1": 0.7231, "exact_match": 61.12},
+        "10": {"accuracy": 87.75, "macro_f1": 0.7582, "micro_f1": 0.7982, "exact_match": 67.53},
+        "15": {"accuracy": 87.75, "macro_f1": 0.7087, "micro_f1": 0.7723, "exact_match": 62.62},
+        "20": {"accuracy": 88.29, "macro_f1": 0.7882, "micro_f1": 0.8160, "exact_match": 71.22},
+        "25": {"accuracy": 88.42, "macro_f1": 0.7699, "micro_f1": 0.7959, "exact_match": 69.54}
+      }
+    },
+    "t5": {
+      "name": "T5-Small",
+      "5": 79.61,
+      "10": 71.45,
+      "15": 76.42,
+      "20": 77.92,
+      "25": 71.41,
+      "best_epoch": 5,
+      "best_accuracy": 79.61
+    }
+  }
+}

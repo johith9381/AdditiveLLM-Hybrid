@@ -1,0 +1,5 @@
+fusion_method,accuracy_pct,macro_f1,exact_match_ratio_pct,tier_a_acc,tier_b_acc,tier_c_acc,ece,description
+Simple Average,97.17,0.9489,92.5,97.17,95.82,76.4,0.0308,Unweighted arithmetic average of all 5 branch probability distributions
+Learned Gating (v1),97.21,0.946,92.33,97.21,97.16,78.83,0.0107,Softmax gating network over concatenated expert representations
+Stacking Meta-Learner (v2),98.08,0.9619,94.0,98.08,97.94,83.15,0.057,Non-linear meta-classifier trained on out-of-fold cross-modal branch outputs
+Multi-Seed Ensemble of Stacking Meta-Learners,98.12,0.9638,94.67,98.12,98.42,84.6,0.0497,5-seed ensemble averaging probabilities from distinct stacking models (Final Stack)

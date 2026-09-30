@@ -1,0 +1,12 @@
+{
+  "0": "What defects would occur in <material> L-PBF produced melt pools at <power>, using a <beam_diameter> beam diameter, <velocity> scan speed, <hatch_spacing> hatch spacing, and a <layer_height> layer height?",
+  "1": "Could you describe the types of defects that form in <material> components created by L-PBF at <power>, with a <beam_diameter> beam diameter, scanning at <velocity>, a hatch spacing of <hatch_spacing>, and a layer height of <layer_height>?",
+  "2": "What kinds of flaws might appear in <material> parts fabricated by L-PBF under a <power> laser, with a <beam_diameter> beam, traveling at <velocity>, a hatch spacing of <hatch_spacing>, and a layer thickness of <layer_height>?",
+  "3": "Which defects are commonly observed in <material> melt pools formed by L-PBF when operating at <power>, with a <beam_diameter> beam diameter, a scan speed of <velocity>, a hatch spacing of <hatch_spacing>, and a layer height of <layer_height>?",
+  "4": "In an L-PBF process for <material>, running at <power> power, <beam_diameter> beam diameter, <velocity> speed, <hatch_spacing> spacing, and <layer_height> layer thickness, what defects tend to arise?",
+  "5": "What typical defects emerge in <material> parts produced by L-PBF at <power>, employing a <beam_diameter> beam, a scanning velocity of <velocity>, a hatch spacing of <hatch_spacing>, and a layer height of <layer_height>?",
+  "6": "For <material> manufactured via L-PBF using <power>, a <beam_diameter> beam diameter, <velocity> scanning speed, <hatch_spacing> hatch spacing, and <layer_height> layer height, what defects can be expected?",
+  "7": "What are the likely imperfections that occur in <material> L-PBF builds at <power>, given a <beam_diameter> beam diameter, a <velocity> scan speed, a <hatch_spacing> hatch spacing, and a <layer_height> layer height?",
+  "8": "Which flaws might manifest in <material> components created through L-PBF operating at <power>, with a <beam_diameter> beam, moving at <velocity>, and employing <hatch_spacing> and <layer_height> as the hatch spacing and layer height, respectively?",
+  "9": "What forms of defects tend to appear in <material> L-PBF builds when processed at <power>, with a <beam_diameter> beam diameter, running at <velocity>, using a hatch spacing of <hatch_spacing>, and a layer height of <layer_height>?"
+}

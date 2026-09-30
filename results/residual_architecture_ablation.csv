@@ -1,0 +1,3 @@
+Architecture,Tier_A_Acc_Pct,Tier_B_Acc_Pct,Tier_C_Acc_Pct,Tier_C_Macro_F1,Pooled_Macro_F1,Residual_Coupling,Physical_Attribution
+Flat Stacking Meta-Learner (v2),97.72,89.6,44.5,0.4329,0.8163,Flat Unanchored,Vulnerable to data-ceiling inversion
+Two-Stage Physics-Constrained Residual (v3),27.77,30.32,33.98,0.2677,0.3236,Stage 1 Anchor + Stage 2 Correction,Closed-form Rosenthal bounds prevent OOD keyhole/LoF collapse

@@ -1,0 +1,44 @@
+{
+  "model_name": "v2 5-Branch Black-Box Hybrid Ensemble",
+  "version": "2.0-frozen-tierc",
+  "seeds": [
+    13,
+    42,
+    123,
+    2024,
+    7
+  ],
+  "num_features": 12,
+  "features": [
+    "norm_power",
+    "norm_velocity",
+    "norm_beam_diameter",
+    "norm_hatch_spacing",
+    "norm_layer_height",
+    "material_idx",
+    "linear_energy_density_LED",
+    "volumetric_energy_density_VED",
+    "areal_energy_density_AED",
+    "power_to_beam_ratio",
+    "hatch_to_beam_aspect_ratio",
+    "layer_to_beam_aspect_ratio"
+  ],
+  "ensemble_weights": {
+    "lightgbm": 0.55,
+    "xgboost": 0.45
+  },
+  "optimal_thresholds": [
+    0.5,
+    0.62,
+    0.5,
+    0.65
+  ],
+  "defect_classes": [
+    "None",
+    "Keyhole",
+    "Lack_of_Fusion",
+    "Balling"
+  ],
+  "training_samples_per_seed": 150000,
+  "frozen_checkpoint_dir": "/Users/chandrashanmukhi/Downloads/AdditiveLLM_Reproduction/checkpoints/v2_hybrid_tierc"
+}

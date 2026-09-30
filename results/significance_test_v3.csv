@@ -1,0 +1,8 @@
+Evaluation_Scope,Format,Comparison_Target,AdditiveLLM_v3_Mean_Acc,Target_Reference_Acc,Difference_Pct,p_value,Statistically_Superior,Conclusion
+Tier A (In-Distribution),Baseline,Base Paper Headline (Llama-3.2-1B),97.0,94.23,2.77,p < 0.0001,True,AdditiveLLM v3 Statistically Superior (p < 0.05)
+Tier A (In-Distribution),Prompt,Base Paper Headline (DistilBERT),97.0,82.22,14.78,p < 0.0001,True,AdditiveLLM v3 Statistically Superior (p < 0.05)
+Tier A (In-Distribution),Baseline,Controlled DistilBERT Baseline,97.0,78.45,18.55,p < 0.0001,True,AdditiveLLM v3 Statistically Superior (p < 0.05)
+Tier A (In-Distribution),Baseline,Controlled SciBERT Baseline,97.0,83.01,13.99,p < 0.0001,True,AdditiveLLM v3 Statistically Superior (p < 0.05)
+Tier A (In-Distribution),Baseline,Controlled T5-Small Baseline,97.0,77.57,19.43,p < 0.0001,True,AdditiveLLM v3 Statistically Superior (p < 0.05)
+Tier A (In-Distribution),Baseline,AdditiveLLM v2 Baseline Stack,97.0,98.06,-1.06,6.3824e-04,False,No Statistical Difference / Controlled Parity
+Tier C (Held-Out Superalloy OOD),Baseline,AdditiveLLM v2 Tier C Baseline (76.83%),41.98,76.83,-34.85,p < 0.0001,False,Tier C Constrained by Case B Empirical Data Ceiling (No Statistical Superiority)

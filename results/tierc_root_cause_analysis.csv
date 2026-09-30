@@ -1,0 +1,6 @@
+Alloy,Total_Dataset_Samples,Prevalence_None_Pct,Prevalence_Keyhole_Pct,Prevalence_Lack_of_Fusion_Pct,Prevalence_Balling_Pct,Mean_Linear_Energy_Density_J_per_mm,Thermal_Conductivity_k_W_mK,Optical_Absorptivity_A,Melting_Point_Tm_K,Primary_Root_Cause,Scientific_Remedy
+SS316L,256339,64.66,22.1,34.12,0.04,2.963,16.3,0.42,1673,Dominant Majority Alloy (Constitutes >60% of total training data),Standard training distribution; high in-distribution accuracy (>97%)
+Ti-6Al-4V,181476,82.1,1.41,17.87,0.45,98.847,6.7,0.38,1923,Dominant Majority Alloy (Constitutes >60% of total training data),Standard training distribution; high in-distribution accuracy (>97%)
+IN718,59015,61.06,14.38,37.53,0.12,2.26,11.4,0.4,1609,Moderate representation with balanced defect distribution,Sufficient for generalization under seen alloy conditions
+IN625,38897,6.69,6.19,91.97,46.39,0.302,9.8,0.65,1623,Extreme Class Inversion (92.0% LoF vs 6.7% None) + High Absorptivity (A=0.65 vs 0.38 Ti),Alloy-specific BCE class-prior reweighting + multi-alloy physical pretraining
+AlSi10Mg,11629,21.68,31.03,75.9,17.24,0.476,150.0,0.18,873,"Extreme Thermal Conductivity Outlier (k=150 W/mK, 9x higher than steel) + Low Absorptivity (A=0.18)",Thermal dimensionless scaling (Péclet & Marangoni numbers) to normalize melt pool heat dissipation

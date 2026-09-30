@@ -1,0 +1,2 @@
+Tier,Sample_Count,Accuracy_Pct,Macro_F1,Precision,Recall,Recall_None,Recall_Keyhole,Recall_LoF,Recall_Balling,Model_Type
+Tier C (Held-Out Superalloys OOD),38897,9.92,0.2582,0.3928,0.4668,0.0077,1.0,0.8594,0.0,Pure Closed-Form Rosenthal Physics (Zero Learned Parameters)

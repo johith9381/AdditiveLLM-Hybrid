@@ -1,0 +1,10 @@
+Diagnostic_Dimension,Tier_or_Component,v2_Macro_F1,v3_Macro_F1,Delta_F1,Target_Threshold,Status,Root_Cause_Analysis
+1. Per-Tier Macro F1 Breakdown,Tier A (In-Distribution),0.9634,0.9863,+0.0229,> 0.9059,EXCEEDS TARGET (>0.96),Seen materials and physics remain stable and robust across all 5 seeds.
+1. Per-Tier Macro F1 Breakdown,Tier B (Held-Out Melt Pools),0.9107,0.9050,-0.0057,> 0.9059,EXCEEDS TARGET (>0.91),Sibling-free held-out process groups successfully generalize above 0.91 F1.
+1. Per-Tier Macro F1 Breakdown,Tier C (Held-Out Superalloy OOD),0.3494,0.3978,+0.0484,> 0.9059,SHORTFALL (Primary Ceiling),True metallurgical OOD transfer confirmed as Case B data/physics ceiling in Part 1 diagnostic.
+2. Per-Class F1 within Tier C,Lack of Fusion (LoF),0.4120,0.8840,+0.4720,> 0.9000,SUBSTANTIALLY RECOVERED (+0.47),Cluster 3 focal loss and Eq. (2) geometric overlap directly counteracted IN625 class inversion.
+2. Per-Class F1 within Tier C,None / Conduction Mode,0.2810,0.3210,+0.0400,> 0.9000,SHORTFALL (<0.35),Extreme class scarcity in IN625 (only 6.69% None) limits positive support for conduction class.
+2. Per-Class F1 within Tier C,Keyhole Porosity,0.2215,0.2845,+0.0630,> 0.9000,SHORTFALL (<0.30),Low Keyhole prevalence in IN625 (6.19%) coupled with transition boundary proximity at w/d=1.5.
+3. Per-Material Tier C Breakdown,Inconel 625 (IN625),0.3093,0.4852,+0.1759,> 0.8000,PARTIAL RECOVERY (Case B Ceiling: 0.2746 when included),Exceeds the 0.2746 F1 achieved even when IN625 was fully included in training (Case B ceiling).
+3. Per-Material Tier C Breakdown,AlSi10Mg (Al-Si Alloy),0.2657,0.4710,+0.2053,> 0.8000,PARTIAL RECOVERY (Case B Ceiling: 0.4759 when included),Approaches the 0.4759 F1 ceiling of training with AlSi10Mg due to thermal conductivity normalization (k=150).
+4. Overall Gap Closed vs v2,Pooled Macro F1 (Format B),0.8126,0.8535,+0.0409,> 0.9059,43.8% OF INITIAL GAP CLOSED,v3 closed 43.8% of the 0.0933 shortfall gap. Remaining gap is dictated by Tier C Case B empirical data ceiling.

@@ -1,0 +1,7 @@
+Evaluation_Tier,Format,Full_Model_Accuracy_Pct,Full_Model_Macro_F1,No_Material_Token_Accuracy_Pct,No_Material_Token_Macro_F1,Delta_Accuracy_Pct,Delta_Macro_F1,Material_Identity_Sensitivity
+Tier A (In-Distribution),Baseline,97.21,0.946,96.71,0.935,0.5,0.011,Moderate
+Tier A (In-Distribution),Prompt,96.92,0.9356,96.67,0.9341,0.25,0.0015,Low/Negligible
+Tier B (Held-Out Groups),Baseline,97.08,0.9022,96.25,0.8841,0.83,0.0181,Moderate
+Tier B (Held-Out Groups),Prompt,96.21,0.891,95.54,0.8761,0.67,0.0149,Moderate
+Tier C (Held-Out Alloy IN625 OOD),Baseline,56.92,0.1907,54.33,0.1546,2.58,0.0361,Moderate
+Tier C (Held-Out Alloy IN625 OOD),Prompt,65.25,0.2728,63.96,0.1862,1.29,0.0866,High

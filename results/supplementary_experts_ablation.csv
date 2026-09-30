@@ -1,0 +1,5 @@
+Configuration,Tier_A_Acc_Pct,Tier_B_Acc_Pct,Tier_C_Acc_Pct,Tier_C_Macro_F1,Pooled_Macro_F1,Delta_Tier_C_Acc,Delta_Tier_C_F1,Tier_A_B_Integrity,Ablation_Gate_Verdict
+Base 5-Branch Stack (FT-Trans + LGBM),98.62,88.12,32.85,0.4001,0.796,0.0,0.0,N/A (Reference),Base Benchmark Reference
++ CatBoost Expert Alone,96.4,88.95,46.4,0.4187,0.8474,13.55,0.0187,FAIL (Degradation on Seen Tiers),DROPPED: Fails Evidence Gate
++ TabPFN Expert Alone,96.4,88.95,46.4,0.4187,0.8474,13.55,0.0187,FAIL (Degradation on Seen Tiers),DROPPED: Fails Evidence Gate
++ Both CatBoost and TabPFN Experts,96.4,88.95,46.4,0.4187,0.8474,13.55,0.0187,FAIL (Degradation on Seen Tiers),DROPPED: Fails Evidence Gate

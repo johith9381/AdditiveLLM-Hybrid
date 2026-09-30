@@ -1,0 +1,25 @@
+=======================================================================
+ZERO-LEAKAGE GROUP-AWARE SPLIT AUDIT & VERIFICATION REPORT
+Status: PASSED (Zero Cross-Split Contamination Detected)
+=======================================================================
+
+Partition Statistics:
+  - Training Set Rows:         472,655
+  - Training Unique Keys:      2,005
+  - Training Materials:        29
+  - Tier A (In-Distribution):  83,074 rows (1,320 keys)
+  - Tier B (Held-Out Groups):  130,135 rows (502 keys)
+  - Tier C (Held-Out Material):38,897 rows (54 keys)
+
+Pairwise Disjointness Audit Results:
+  [1] Train Keys ∩ Tier B Keys:           0 (100.0% Disjoint - ZERO LEAKAGE)
+  [2] Train Materials ∩ Tier C Materials: 0 (100.0% Disjoint - ZERO LEAKAGE)
+  [3] Tier B Materials ∩ Tier C Materials:0 (100.0% Disjoint - ZERO LEAKAGE)
+  [4] Tier A Keys ⊆ Train Keys:           TRUE (100.0% In-Distribution Verified)
+
+Formal Scientific Conclusion:
+Unlike the original paper's post-augmentation random sampling (which suffered from
+99.8731% cross-split sibling leakage), this dataset split was partitioned using
+GroupShuffleSplit keyed on Group A physical parameters (Material, Power, Velocity, Beam Diameter)
+BEFORE augmentation. No physical sample's augmented sibling rows appear in more than one split.
+All evaluation metrics across Tier B and Tier C represent true generalization to unseen manufacturing regimes.

@@ -1,0 +1,31 @@
+{
+  "schema_audit": {
+    "train_columns": [
+      "id",
+      "label",
+      "text"
+    ],
+    "validation_columns": [
+      "id",
+      "label",
+      "text"
+    ],
+    "geometry_columns_present": false,
+    "grouping_method": "parsed_text_fixed_parameters (material, power, velocity, beam_diameter)",
+    "grouping_justification": "Columns melt_pool_width and melt_pool_depth are not separate columns in the published baseline parquet/csv splits (which contain 'id', 'label', and 'text'). Therefore, base measurement groups are identified by parsing the four fixed process parameters (material, power, velocity, beam_diameter) from the [SEP]-delimited 'text' column. During the paper's Lack-of-Fusion augmentation, these four parameters are held constant for each base melt pool while hatch_spacing and layer_height are swept. As a result, all rows sharing (material, power, velocity, beam_diameter) represent augmented siblings derived from that base melt pool."
+  },
+  "leakage_statistics": {
+    "total_unique_base_groups": 2561,
+    "validation_unique_base_groups": 1754,
+    "validation_base_groups_in_train": 1662,
+    "percentage_val_groups_in_train": 94.7548,
+    "total_validation_samples": 72475,
+    "validation_samples_with_train_sibling": 72383,
+    "percentage_validation_samples_leaked": 99.8731,
+    "multi_sample_groups_count": 1688,
+    "keyhole_label_consistency_across_siblings_pct": 98.6967,
+    "balling_label_consistency_across_siblings_pct": 98.6374
+  },
+  "methodological_implications": "DATA LEAKAGE CONFIRMED: 99.87% of validation samples share identical material, power, velocity, and beam diameter with samples in the training set.\nBecause the Lack-of-Fusion augmentation procedure created hundreds of sibling rows per base experimental measurement and subsequently applied a random split (75% / 15% / 10%) on the augmented dataframe rather than splitting base measurements prior to augmentation, virtually all validation cases represent near-exact duplicates of training points with identical Keyhole and Balling labels.\nConsequently, high reported validation accuracy (e.g., 93.68% for Llama-Baseline) reflects interpolative memorization of augmented siblings rather than inductive generalization to unseen manufacturing regimes.",
+  "conclusion": "CRITICAL_DATA_LEAKAGE: Near-complete cross-split contamination due to post-augmentation random splitting."
+}

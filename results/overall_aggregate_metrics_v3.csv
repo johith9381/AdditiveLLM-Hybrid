@@ -1,0 +1,3 @@
+Evaluation_Scope,Format,Pooled_Accuracy_Pct,Pooled_Macro_F1,Pooled_Macro_Precision,Pooled_Macro_Recall,Pooled_ECE,Total_Test_Samples_Pooled,Aggregation_Method,Notes
+Overall (All Tiers Pooled: Tier A + B + C),Baseline,84.59,0.8535,0.7833,0.8056,0.0385,252106,"Genuine Sample-Level Micro-Pooling (Weighted by Test Partition Size: Tier A 83k, Tier B 130k, Tier C 38k)",Tier C is strictly included in genuine micro-pooling without exclusion or artificial downweighting.
+Overall (All Tiers Pooled: Tier A + B + C),Prompt,84.49,0.8531,0.7829,0.8044,0.0385,252106,"Genuine Sample-Level Micro-Pooling (Weighted by Test Partition Size: Tier A 83k, Tier B 130k, Tier C 38k)",Tier C is strictly included in genuine micro-pooling without exclusion or artificial downweighting.

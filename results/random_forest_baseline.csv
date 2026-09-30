@@ -1,0 +1,4 @@
+model,tier,samples,mean_binary_accuracy_pct,exact_match_pct,macro_precision,macro_recall,macro_f1,micro_f1
+Random Forest Baseline,Tier A (In-Distribution),83074,96.7,91.48,0.9793,0.9212,0.9472,0.9448
+Random Forest Baseline,Tier B (Held-Out Physical Groups),130135,94.37,85.24,0.9305,0.8438,0.8811,0.9052
+Random Forest Baseline,Tier C (Held-Out Materials OOD),38897,53.29,22.17,0.2329,0.1828,0.1161,0.208

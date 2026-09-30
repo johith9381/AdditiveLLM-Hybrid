@@ -1,0 +1,7 @@
+lambda_reg,total_multitask_loss,classification_bce_loss,auxiliary_mse_width_to_depth,auxiliary_mse_length_to_width,mean_binary_accuracy_pct,macro_f1,physics_aspect_ratio_consistency
+0.0,0.0185,0.0185,0.0607,0.0162,97.97,0.639,Unconstrained
+0.01,0.0189,0.0185,0.0607,0.0162,98.97,0.6455,Strict
+0.05,0.0204,0.0185,0.0607,0.0162,98.97,0.6455,Strict
+0.1,0.0223,0.0185,0.0607,0.0162,99.46,0.6488,Strict
+0.5,0.0377,0.0185,0.0607,0.0162,98.47,0.6423,Strict
+1.0,0.057,0.0185,0.0607,0.0162,98.47,0.6423,Strict

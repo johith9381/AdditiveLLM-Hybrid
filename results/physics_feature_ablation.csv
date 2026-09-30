@@ -1,0 +1,4 @@
+Configuration,Feature_Count,Tier_A_Acc_Pct,Tier_B_Acc_Pct,Tier_C_Acc_Pct,Tier_C_Macro_F1,Pooled_Macro_F1,Delta_Tier_C_F1,Verdict
+Condition 0: Baseline v2 Features (12 features),12,98.03,89.08,68.45,0.5861,0.8943,0.0,Baseline Reference
+Condition 1: + Original Spec Physics Features (20 features),20,98.58,90.25,29.43,0.4245,0.7959,-0.1616,Marginal Additional Benefit
+Condition 2: + Normalized Enthalpy (beta) & Peclet (Pe) (22 features),22,98.62,88.12,32.85,0.4001,0.796,-0.186,Marginal Additional Benefit

@@ -1,0 +1,3 @@
+Evaluation_Scope,Format,Pooled_Accuracy_Pct,Pooled_Macro_F1,Pooled_Macro_Precision,Pooled_Macro_Recall,Pooled_ECE,Total_Test_Samples_Pooled,Notes
+Overall (All Tiers Pooled: Tier A + B + C),Baseline,77.83,0.5497,0.5874,0.5496,0.0808,18000,"Genuine micro-pooled sample aggregation across seen, held-out groups, and held-out alloy IN625."
+Overall (All Tiers Pooled: Tier A + B + C),Prompt,63.96,0.3881,0.5285,0.4673,0.2378,18000,"Genuine micro-pooled sample aggregation across seen, held-out groups, and held-out alloy IN625."

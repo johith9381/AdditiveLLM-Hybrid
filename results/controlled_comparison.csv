@@ -1,0 +1,7 @@
+Tier,Format,"Original_Paper_Reported (Uncontrolled, Diff Infra)","Reproduced_Baseline_Controlled (Mean ± Std, n=5)","Hybrid_AdditiveLLM_Ours (Mean ± Std, n=5)",Delta_Acc_Pct,Delta_Macro_F1,Controlled_Baseline_Outperformed
+Tier A,Baseline,94.23% / 0.9059 (Llama-3.2-1B reported on sibling-leakage),83.01 ± 2.32% (F1: 0.5215 ± 0.1300) [SciBERT],97.14 ± 0.35% (F1: 0.9457 ± 0.0018),14.13,0.4242,True
+Tier A,Prompt,82.22% / 0.7140 (DistilBERT reported on sibling-leakage),76.11 ± 0.95% (F1: 0.3095 ± 0.0407) [SciBERT],96.37 ± 0.69% (F1: 0.9352 ± 0.0087),20.26,0.6257,True
+Tier B,Baseline,N/A (Paper did not evaluate group-safe held-out splits),81.84 ± 1.12% (F1: 0.4797 ± 0.0950) [SciBERT],97.29 ± 0.24% (F1: 0.9063 ± 0.0090),15.45,0.4266,True
+Tier B,Prompt,N/A (Paper did not evaluate group-safe held-out splits),77.79 ± 1.07% (F1: 0.3213 ± 0.0453) [SciBERT],96.63 ± 0.46% (F1: 0.9055 ± 0.0062),18.84,0.5843,True
+Tier C,Baseline,N/A (Paper did not evaluate held-out alloy OOD),78.83 ± 3.80% (F1: 0.2660 ± 0.0392) [SciBERT],57.44 ± 0.52% (F1: 0.1973 ± 0.0192),-21.39,-0.0687,False
+Tier C,Prompt,N/A (Paper did not evaluate held-out alloy OOD),76.32 ± 7.62% (F1: 0.2326 ± 0.0232) [DistilBERT],66.56 ± 1.05% (F1: 0.2797 ± 0.0111),-9.76,0.0471,True

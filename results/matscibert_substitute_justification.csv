@@ -1,0 +1,3 @@
+Format,Domain_Adapted_Substitute_Accuracy_Pct,Domain_Adapted_Substitute_Macro_F1,Plain_Duplicate_Branch_Accuracy_Pct,Plain_Duplicate_Branch_Macro_F1,Accuracy_Advantage_Pct,Macro_F1_Advantage,Measurable_Value_Confirmed
+Baseline,97.21,0.946,96.0,0.914,1.21,0.032,True
+Prompt,96.42,0.9324,95.21,0.8862,1.21,0.0461,True

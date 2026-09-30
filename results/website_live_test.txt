@@ -1,0 +1,288 @@
+=======================================================================
+ADDITIVE LLM 2.0: LIVE WEB SERVICE ENDPOINT AUDIT LOG
+Timestamp: 2026-09-25 11:50:02
+=======================================================================
+
+--- TEST 1: GET /api/health ---
+HTTP Status: 200
+{
+  "status": "healthy",
+  "device": "mps",
+  "model_loaded": true,
+  "tokenizers_loaded": true
+}
+
+
+--- TEST 2: POST /api/predict (Optimal Conduction Preset) ---
+Input: {"material": "Ti-6Al-4V", "power": 200.0, "velocity": 1000.0, "beam_diameter": 100.0, "hatch_spacing": 100.0, "layer_height": 30.0}
+HTTP Status: 200
+{
+  "input_summary": {
+    "raw_text": "Ti-6Al-4V[SEP]200.0 W[SEP]1000.0 mm/s[SEP]100.0 microns[SEP]100.0 microns[SEP]30.0 microns",
+    "material": "Ti-6Al-4V",
+    "power_w": 200.0,
+    "velocity_mms": 1000.0,
+    "beam_diameter_um": 100.0,
+    "hatch_spacing_um": 100.0,
+    "layer_height_um": 30.0,
+    "linear_energy_density_J_per_mm": 0.2
+  },
+  "defects": {
+    "none": {
+      "probability": 0.8721990585327148,
+      "detected": true,
+      "label": "Defect-Free (High Quality)"
+    },
+    "keyhole": {
+      "probability": 0.004798124078661203,
+      "detected": false,
+      "label": "Keyhole Porosity",
+      "physics_indicator": "Conduction Mode"
+    },
+    "lack_of_fusion": {
+      "probability": 0.10136205703020096,
+      "detected": false,
+      "label": "Lack of Fusion Porosity",
+      "physics_indicator": "Sufficient Energy Density"
+    },
+    "balling": {
+      "probability": 0.006950680632144213,
+      "detected": false,
+      "label": "Balling Porosity",
+      "physics_indicator": "Stable Melt Track"
+    }
+  },
+  "process_regime": {
+    "primary_regime": "Optimal Processing Window (Defect-Free)",
+    "risk_level": "LOW"
+  },
+  "physics_meltpool_diagnostics": {
+    "predicted_width_to_depth_ratio": 2.696,
+    "predicted_length_to_width_ratio": 1.725,
+    "keyhole_geometry_flag": false,
+    "balling_geometry_flag": false,
+    "theoretical_balling_threshold": 3.142
+  },
+  "ensemble_uncertainty": {
+    "inter_branch_agreement_score": 0.75,
+    "uncertainty_rating": "Moderate",
+    "expert_gating_weights": {
+      "distilbert_lora": 0.1063,
+      "scibert_lora": 0.3496,
+      "matscibert_substitute_lora": 0.3791,
+      "numeric_process_mlp": 0.165
+    }
+  },
+  "branch_predictions": {
+    "distilbert": [
+      0.978901207447052,
+      0.002162153134122491,
+      0.0277662705630064,
+      0.0010942212538793683
+    ],
+    "scibert": [
+      0.22975404560565948,
+      0.02130136266350746,
+      0.6995847821235657,
+      0.013954496011137962
+    ],
+    "matscibert": [
+      0.976007878780365,
+      0.00022833005641587079,
+      0.03359471261501312,
+      0.003964572213590145
+    ],
+    "numeric": [
+      0.9586983919143677,
+      0.004741827491670847,
+      0.02494628354907036,
+      0.008965019136667252
+    ]
+  }
+}
+
+
+--- TEST 3: POST /api/predict (Severe Keyhole Preset) ---
+Input: {"material": "Ti-6Al-4V", "power": 380.0, "velocity": 450.0, "beam_diameter": 80.0, "hatch_spacing": 100.0, "layer_height": 30.0}
+HTTP Status: 200
+{
+  "input_summary": {
+    "raw_text": "Ti-6Al-4V[SEP]380.0 W[SEP]450.0 mm/s[SEP]80.0 microns[SEP]100.0 microns[SEP]30.0 microns",
+    "material": "Ti-6Al-4V",
+    "power_w": 380.0,
+    "velocity_mms": 450.0,
+    "beam_diameter_um": 80.0,
+    "hatch_spacing_um": 100.0,
+    "layer_height_um": 30.0,
+    "linear_energy_density_J_per_mm": 0.844
+  },
+  "defects": {
+    "none": {
+      "probability": 0.9577030539512634,
+      "detected": true,
+      "label": "Defect-Free (High Quality)"
+    },
+    "keyhole": {
+      "probability": 0.012251334264874458,
+      "detected": false,
+      "label": "Keyhole Porosity",
+      "physics_indicator": "Conduction Mode"
+    },
+    "lack_of_fusion": {
+      "probability": 0.02670918218791485,
+      "detected": false,
+      "label": "Lack of Fusion Porosity",
+      "physics_indicator": "Sufficient Energy Density"
+    },
+    "balling": {
+      "probability": 0.006693513132631779,
+      "detected": false,
+      "label": "Balling Porosity",
+      "physics_indicator": "Stable Melt Track"
+    }
+  },
+  "process_regime": {
+    "primary_regime": "Optimal Processing Window (Defect-Free)",
+    "risk_level": "LOW"
+  },
+  "physics_meltpool_diagnostics": {
+    "predicted_width_to_depth_ratio": 1.582,
+    "predicted_length_to_width_ratio": 1.201,
+    "keyhole_geometry_flag": false,
+    "balling_geometry_flag": false,
+    "theoretical_balling_threshold": 3.142
+  },
+  "ensemble_uncertainty": {
+    "inter_branch_agreement_score": 0.75,
+    "uncertainty_rating": "Moderate",
+    "expert_gating_weights": {
+      "distilbert_lora": 0.1167,
+      "scibert_lora": 0.1699,
+      "matscibert_substitute_lora": 0.5403,
+      "numeric_process_mlp": 0.1731
+    }
+  },
+  "branch_predictions": {
+    "distilbert": [
+      0.9828348159790039,
+      0.001742791966535151,
+      0.022653071209788322,
+      0.0009681926458142698
+    ],
+    "scibert": [
+      0.14593197405338287,
+      0.032357893884181976,
+      0.8073800206184387,
+      0.018246810883283615
+    ],
+    "matscibert": [
+      0.9345024824142456,
+      0.0008957807440310717,
+      0.09187234193086624,
+      0.00526066217571497
+    ],
+    "numeric": [
+      0.958954930305481,
+      0.07296965271234512,
+      0.020746923983097076,
+      0.019234010949730873
+    ]
+  }
+}
+
+
+--- TEST 4: POST /api/predict (Natural Language Operator Prompt) ---
+Input Prompt: A selective laser melting process using Ti-6Al-4V alloy with laser power 280 W, scanning velocity 850 mm/s, spot diameter 100 microns.
+HTTP Status: 200
+{
+  "input_summary": {
+    "raw_text": "A selective laser melting process using Ti-6Al-4V alloy with laser power 280 W, scanning velocity 850 mm/s, spot diameter 100 microns.",
+    "material": "Ti-6Al-4V",
+    "power_w": 200.0,
+    "velocity_mms": 1000.0,
+    "beam_diameter_um": 100.0,
+    "hatch_spacing_um": 100.0,
+    "layer_height_um": 30.0,
+    "linear_energy_density_J_per_mm": 0.2
+  },
+  "defects": {
+    "none": {
+      "probability": 0.969910204410553,
+      "detected": true,
+      "label": "Defect-Free (High Quality)"
+    },
+    "keyhole": {
+      "probability": 0.0034326263703405857,
+      "detected": false,
+      "label": "Keyhole Porosity",
+      "physics_indicator": "Conduction Mode"
+    },
+    "lack_of_fusion": {
+      "probability": 0.026970449835062027,
+      "detected": false,
+      "label": "Lack of Fusion Porosity",
+      "physics_indicator": "Sufficient Energy Density"
+    },
+    "balling": {
+      "probability": 0.0030029206536710262,
+      "detected": false,
+      "label": "Balling Porosity",
+      "physics_indicator": "Stable Melt Track"
+    }
+  },
+  "process_regime": {
+    "primary_regime": "Optimal Processing Window (Defect-Free)",
+    "risk_level": "LOW"
+  },
+  "physics_meltpool_diagnostics": {
+    "predicted_width_to_depth_ratio": 2.618,
+    "predicted_length_to_width_ratio": 1.889,
+    "keyhole_geometry_flag": false,
+    "balling_geometry_flag": false,
+    "theoretical_balling_threshold": 3.142
+  },
+  "ensemble_uncertainty": {
+    "inter_branch_agreement_score": 1.0,
+    "uncertainty_rating": "Very Low (High Consensus)",
+    "expert_gating_weights": {
+      "distilbert_lora": 0.0155,
+      "scibert_lora": 0.5481,
+      "matscibert_substitute_lora": 0.3669,
+      "numeric_process_mlp": 0.0695
+    }
+  },
+  "branch_predictions": {
+    "distilbert": [
+      0.9977743029594421,
+      8.951708150561899e-05,
+      0.006662407889962196,
+      0.0016659611137583852
+    ],
+    "scibert": [
+      0.9946994781494141,
+      0.0017710321117192507,
+      0.010684369131922722,
+      0.0009713988984003663
+    ],
+    "matscibert": [
+      0.9929128289222717,
+      0.00012605437950696796,
+      0.008711659349501133,
+      0.004063258413225412
+    ],
+    "numeric": [
+      0.9586983919143677,
+      0.004741827491670847,
+      0.02494628354907036,
+      0.008965019136667252
+    ]
+  }
+}
+
+
+--- TEST 5: GET /api/dashboard_data ---
+HTTP Status: 200
+Comparison Records: 6
+Ablation Records: 7
+Reliability Records: 5
+

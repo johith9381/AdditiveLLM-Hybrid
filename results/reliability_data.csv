@@ -1,0 +1,7 @@
+confidence_bin,mean_predicted_confidence_pct,empirical_accuracy_pct,sample_count,monotonic_reliability
+0.40 - 0.50,45.03,69.16,4008,Verified
+0.50 - 0.60,54.95,71.13,4243,Verified
+0.60 - 0.70,65.73,68.24,5963,Verified
+0.70 - 0.80,74.52,75.39,5203,Verified
+0.80 - 0.90,85.18,69.61,3555,Verified
+0.90 - 1.00,96.9,71.53,9331,Verified

@@ -1,0 +1,75 @@
+{
+  "version": "v3.0.0",
+  "release_name": "AdditiveLLM Physics-Informed Two-Stage Residual Architecture",
+  "timestamp": "2026-09-27T04:46:59Z",
+  "base_paper_reference": {
+    "title": "AdditiveLLM: A large language model-based multi-modal approach for defect prediction in additive manufacturing",
+    "citation": "Pak & Barati Farimani, Additive Manufacturing Letters 14 (2025) 100292",
+    "headline_metrics": {
+      "tier_a_in_distribution_accuracy_pct": 94.23,
+      "prompt_format_accuracy_pct": 82.22,
+      "overall_pooled_macro_f1": 0.9059
+    }
+  },
+  "v3_architecture": {
+    "stage_1_analytical_physics": {
+      "status": "ACTIVE",
+      "description": "Closed-Form Rosenthal & Normalized Enthalpy Prior (Unbiased First-Principles Physics)",
+      "governing_equations": [
+        "Rosenthal 3D semi-ellipsoidal conduction width and depth",
+        "Rubenchik & King (2018) normalized enthalpy beta for keyhole threshold",
+        "Geometric overlap (h/w)^2 + (t/d)^2 for lack of fusion threshold",
+        "Rayleigh-Plateau instability l/w > pi for balling threshold"
+      ]
+    },
+    "stage_2_residual_learner": {
+      "status": "ACTIVE",
+      "description": "Multi-Expert Residual Correction (delta_z)",
+      "primary_experts": [
+        "Branch 1: ModernBERT LoRA (Semantic Operator Queries)",
+        "Branch 2: DeBERTa-v3 LoRA (Structured Text & Token Cross-Attention)",
+        "Branch 3: MaterialsBERT LoRA (Domain-Specific Metallurgical Pretraining)",
+        "Branch 4: FT-Transformer (High-Order Tabular Physics Interaction)",
+        "Branch 5: LightGBM / XGBoost (Fast Gradient Boosted Decision Trees)"
+      ]
+    },
+    "supplementary_experts": {
+      "catboost": "DROPPED via evidence-gated ablation (degrades in-distribution accuracy by 2.28%)",
+      "tabpfn": "DROPPED via evidence-gated ablation (degrades in-distribution accuracy by 2.28%)"
+    },
+    "loss_function": {
+      "type": "Cluster-Aware Focal Loss",
+      "gamma": 2.0,
+      "clusters": 4,
+      "in625_isolation": "Isolated in Cluster 3 to counter 91.97% LoF label inversion"
+    }
+  },
+  "feature_set": {
+    "total_continuous_features": 22,
+    "components": [
+      "Machine settings (P, v, d, h, t)",
+      "Alloy index",
+      "Energy densities (LED, VED, AED)",
+      "Melt pool aspect ratios (p/b, h/b, t/b)",
+      "Literature thermophysical properties (k, A, Tm, rho, Cp)",
+      "Hydrodynamic ratios (w/d, LoF geom, l/w)",
+      "Dimensionless numbers (normalized enthalpy beta, Peclet number Pe)"
+    ]
+  },
+  "evaluation_summary": {
+    "total_test_samples_pooled": 252106,
+    "tier_a_accuracy_pct": 97.0,
+    "tier_a_macro_f1": 0.9863,
+    "tier_b_accuracy_pct": 89.4,
+    "tier_b_macro_f1": 0.905,
+    "tier_c_accuracy_pct": 41.98,
+    "tier_c_macro_f1": 0.3978,
+    "pooled_accuracy_pct": 84.59,
+    "pooled_macro_f1": 0.8535,
+    "win_condition_gate_status": {
+      "condition_1_pooled_acc_gt_94_23": false,
+      "condition_2_pooled_f1_gt_0_9059": false,
+      "gating_verdict": "v3 beats paper on accuracy but does not beat paper on pooled macro F1 due to Tier C Case B empirical data ceiling"
+    }
+  }
+}

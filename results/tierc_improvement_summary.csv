@@ -1,0 +1,11 @@
+Intervention,Format,Mean_Accuracy_Pct,Std_Accuracy_Pct,Mean_Macro_F1,Std_Macro_F1,Mean_ECE,Delta_Accuracy_Pct,Delta_Macro_F1,Paired_t_PValue,Wilcoxon_PValue,Statistically_Significant_p05,Verdict
+0_Baseline_Control,Baseline,57.54,1.15,0.2096,0.0125,0.3433,0.0,0.0,Control (Ref),Control (Ref),False,Baseline Benchmark
+0_Baseline_Control,Prompt,66.19,0.92,0.2452,0.0193,0.2527,-0.0,0.0,Control (Ref),Control (Ref),False,Baseline Benchmark
+1_Material_Agnostic,Baseline,56.91,1.09,0.2125,0.0169,0.3482,-0.63,0.003,0.5492,1.0000,False,"Marginal Gain (Not Statistically Significant, p >= 0.05)"
+1_Material_Agnostic,Prompt,64.32,0.84,0.2505,0.0154,0.2716,-1.87,0.0053,0.0803,0.1250,False,"Marginal Gain (Not Statistically Significant, p >= 0.05)"
+2_Loss_Reweight_lambda_0.5,Baseline,60.37,1.22,0.2393,0.0198,0.3151,2.83,0.0298,0.0096,0.0625,True,Statistically Significant Improvement (p < 0.05)
+2_Loss_Reweight_lambda_0.5,Prompt,66.64,0.86,0.2547,0.0054,0.257,0.45,0.0095,0.2163,0.3125,False,"Marginal Gain (Not Statistically Significant, p >= 0.05)"
+3_Thermophysical_Properties,Baseline,59.2,1.14,0.1766,0.006,0.3295,1.66,-0.033,0.0025,0.0625,False,No Improvement / Degradation
+3_Thermophysical_Properties,Prompt,67.61,0.79,0.2365,0.0214,0.2544,1.42,-0.0087,0.0968,0.1875,False,No Improvement / Degradation
+4_Physical_Interpolation,Baseline,62.54,0.6,0.2244,0.0094,0.3021,5.0,0.0148,0.0125,0.0625,True,Statistically Significant Improvement (p < 0.05)
+4_Physical_Interpolation,Prompt,70.06,0.82,0.2651,0.0213,0.2324,3.87,0.0199,0.0022,0.0625,True,Statistically Significant Improvement (p < 0.05)

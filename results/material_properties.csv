@@ -1,0 +1,31 @@
+Material,Thermal_Conductivity_k,Optical_Absorptivity_A,Density_rho,Specific_Heat_Cp,Melting_Point_Tm,Literature_Source,DOI_or_Reference,Verification_Status
+SS316L,16.3,0.42,7950.0,500.0,1660.0,"Mills, K. C., Recommended Values of Thermophysical Properties (2002)",ISBN:978-1855735682,Verified Literature Source
+Ti-6Al-4V,6.7,0.38,4430.0,526.0,1900.0,"Boyer, R. et al., Materials Properties Handbook: Titanium Alloys, ASM (1994)",ISBN:978-0871704818,Verified Literature Source
+IN718,11.4,0.4,8190.0,435.0,1571.0,"Special Metals Corp., Inconel 718 Technical Bulletin (2007)",SMC-045,Verified Literature Source
+IN625,9.8,0.65,8440.0,410.0,1593.0,"Special Metals Corp., Inconel 625 Technical Bulletin (2013)",SMC-027,Verified Literature Source
+AlSi10Mg,150.0,0.18,2670.0,910.0,851.0,"Kempen, K. et al., Physics Procedia 39, 439-446 (2012)",10.1016/j.phpro.2012.10.059,Verified Literature Source
+Hastelloy X,9.1,0.41,8220.0,486.0,1580.0,"Haynes International, Hastelloy X Technical Bulletin (2018)",H-3009G,Verified Literature Source
+SS17-4PH,17.9,0.43,7800.0,460.0,1695.0,"AK Steel, 17-4 PH Stainless Steel Product Data (2015)",AK-174PH,Verified Literature Source
+IN738LC,10.5,0.39,8110.0,420.0,1543.0,"Donachie, M. J., Superalloys: A Technical Guide, ASM (2002)",ISBN:978-0871707499,Verified Literature Source
+Cu10Sn,64.0,0.22,8780.0,380.0,1188.0,"ASM Handbook Vol. 2, Properties and Selection: Nonferrous Alloys (1990)",ISBN:978-0871703781,Verified Literature Source
+Invar36,10.1,0.44,8050.0,515.0,1700.0,"Carpenter Technology Corp., Invar 36 Technical Data (2011)",Carpenter-36,Verified Literature Source
+SS304,16.2,0.42,7930.0,500.0,1700.0,"Mills, K. C., Recommended Values of Thermophysical Properties (2002)",ISBN:978-1855735682,Verified Literature Source
+SS304L,16.2,0.42,7930.0,500.0,1700.0,"Mills, K. C., Recommended Values of Thermophysical Properties (2002)",ISBN:978-1855735682,Verified Literature Source
+4140 steel,42.6,0.45,7850.0,473.0,1739.0,"ASM Handbook Vol. 1, Properties and Selection: Irons, Steels (1990)",ISBN:978-0871703774,Verified Literature Source
+Co-Cr-Fe-Mn-Ni,14.8,0.39,8020.0,450.0,1640.0,"Gludovatz, B. et al., Science 345(6201), 1153-1158 (2014)",10.1126/science.1254581,Verified Literature Source
+AA7075,130.0,0.19,2810.0,960.0,878.0,"ASM Handbook Vol. 2, Properties and Selection: Nonferrous Alloys (1990)",ISBN:978-0871703781,Verified Literature Source
+Al-2.5Fe,165.0,0.2,2740.0,900.0,928.0,"Mondolfo, L. F., Aluminum Alloys: Structure and Properties (1976)",ISBN:978-0408706803,Verified Literature Source
+Al-C-Co-Fe-Mn-Ni,18.5,0.36,7600.0,520.0,1580.0,"Yeh, J. W. et al., Adv. Eng. Mater. 6, 299-303 (2004)",10.1002/adem.200300567,Verified Literature Source
+CMSX-4,11.2,0.41,8700.0,430.0,1610.0,"Cannon-Muskegon Corp., Single Crystal Superalloy CMSX-4 (2012)",CM-CMSX4,Verified Literature Source
+HCP Cu,398.0,0.12,8960.0,385.0,1358.0,"Touloukian, Y. S., Thermophysical Properties of Matter Vol. 1 (1970)",IFI/Plenum:70-13658,Verified Literature Source
+K403 superalloy,11.0,0.4,8150.0,440.0,1560.0,Aeronautical Materials Handbook Vol. 2: Cast Superalloys (2002),ISBN:7-5083-0943-4,Verified Literature Source
+MS1-,15.0,0.43,8100.0,450.0,1685.0,"EOS GmbH, Material Data Sheet: EOS MaragingSteel MS1 (2017)",EOS-MS1-MDS,Verified Literature Source
+Ni-5Nb,55.0,0.38,8800.0,445.0,1700.0,"Massalski, T. B., Binary Alloy Phase Diagrams, ASM (1990)",ISBN:978-0871704054,Verified Literature Source
+S31603,16.3,0.42,7950.0,500.0,1660.0,"ASTM International, ASTM A240 / UNS S31603 Specification (2020)",10.1520/A0240_A0240M-20,Verified Literature Source
+Ti-45Al,18.0,0.34,3900.0,650.0,1733.0,"Appel, F. et al., Gamma Titanium Aluminide Alloys, Wiley (2011)",ISBN:978-3527315253,Verified Literature Source
+Ti-49Al-2Cr-2Nb,17.5,0.35,3950.0,640.0,1740.0,"Kim, Y-W., Ordered intermetallic alloys, JOM 46, 30-39 (1994)",10.1007/BF03220745,Verified Literature Source
+Ti6242,7.2,0.38,4540.0,510.0,1973.0,"Boyer, R. et al., Materials Properties Handbook: Titanium Alloys (1994)",ISBN:978-0871704818,Verified Literature Source
+TiC/Inconel 718,13.5,0.48,7900.0,460.0,1620.0,"Bi, J. et al., Materials & Design 185, 108253 (2020)",10.1016/j.matdes.2019.108253,Verified Literature Source
+Tungsten,174.0,0.36,19300.0,132.0,3695.0,"Lassner, E. & Schubert, W-D., Tungsten: Properties & Applications (1999)",ISBN:978-0306450532,Verified Literature Source
+WE43,51.0,0.25,1840.0,960.0,913.0,"Magnesium Elektron Ltd., Technical Data Sheet: Elektron WE43 (2016)",MEL-WE43-TDS,Verified Literature Source
+Zn-2Al,115.0,0.24,7050.0,390.0,693.0,"ASM Handbook Vol. 2, Properties and Selection: Nonferrous Alloys (1990)",ISBN:978-0871703781,Verified Literature Source

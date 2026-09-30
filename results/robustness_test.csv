@@ -1,0 +1,59 @@
+query_id,query_text,expected_category,predicted_category,category_match,extracted_material,extracted_power,extracted_velocity,extracted_beam,extracted_hatch,extracted_layer,extraction_mode
+1,"Inconel 718 printed at 250W power, scanning at 900 mm/s with 100um beam diameter, 110um hatch spacing, and 40um layer thickness.",in-domain-complete,in-domain-complete,True,IN718,250.0,900.0,100.0,110.0,40.0,offline-local-parser
+2,"What defects will happen in SS316L if I use 180 Watts laser, 800 mm/s velocity, 80 micron beam, 120 micron hatch, and 30 micron layers?",in-domain-complete,in-domain-complete,True,SS316L,180.0,800.0,80.0,120.0,30.0,offline-local-parser
+3,"Parameters: Material Ti64, 300W laser, speed 1200 mm/s, spot size 90um, hatch 100um, layer height 50um.",in-domain-complete,in-domain-complete,True,Ti-6Al-4V,300.0,1200.0,90.0,100.0,50.0,offline-local-parser
+4,"Can we print AlSi10Mg with 350 W power, scan velocity 1500 mm/s, beam 75 microns, hatch spacing 130 microns, and layer thickness 30 microns?",in-domain-complete,in-domain-complete,True,AlSi10Mg,350.0,1500.0,75.0,130.0,30.0,offline-local-parser
+5,"Evaluate defect regimes for IN625 at 200W, 600 mm/s, beam diameter 100um, hatch spacing 80um, and layer height 40um.",in-domain-complete,in-domain-complete,True,IN625,200.0,600.0,100.0,80.0,40.0,offline-local-parser
+6,"Process setup: stainless steel 316L, 150W, 700 mm/s, beam 85um, hatch 95um, layer 25um.",in-domain-complete,in-domain-complete,True,SS316L,150.0,700.0,85.0,95.0,25.0,offline-local-parser
+7,"Running Ti-6Al-4V additive manufacturing with 280W, 1100 mm/s speed, 100um beam, 120um hatch, 45um layer.",in-domain-complete,in-domain-complete,True,Ti-6Al-4V,280.0,1100.0,100.0,120.0,45.0,offline-local-parser
+8,"What defects occur in Hastelloy X at 220 Watts, 950 mm/s, 70 micron beam, 100 micron hatch, 35 micron layer?",in-domain-complete,in-domain-complete,True,Hastelloy X,220.0,950.0,70.0,100.0,35.0,offline-local-parser
+9,"Fabricate SS17-4PH using 190W power, 850 mm/s velocity, 90um beam diameter, 105um hatch, and 30um layer thickness.",in-domain-complete,in-domain-complete,True,SS17-4PH,190.0,850.0,90.0,105.0,30.0,offline-local-parser
+10,"L-PBF of Cu10Sn with 400W laser, 600 mm/s scanning, 100um beam, 140um hatch spacing, 50um layer.",in-domain-complete,in-domain-complete,True,Cu10Sn,400.0,600.0,100.0,140.0,50.0,offline-local-parser
+11,"Will there be keyholing in SS316L at 450W, 500 mm/s, 98um beam, 100um hatch, 50um layer?",in-domain-complete,in-domain-complete,True,SS316L,450.0,500.0,98.0,100.0,50.0,offline-local-parser
+12,"Is balling likely in Ti64 when operating at 100W, 2500 mm/s, 80um beam, 120um hatch, 30um layer?",in-domain-complete,in-domain-complete,True,Ti-6Al-4V,100.0,2500.0,80.0,120.0,30.0,offline-local-parser
+13,"Predict porosity for Tungsten run at 350W, 400 mm/s speed, 100 micron spot, 90 micron hatch, 20 micron layer.",in-domain-complete,in-domain-complete,True,Tungsten,350.0,400.0,100.0,90.0,20.0,offline-local-parser
+14,"Under conditions of 200W, 1000 mm/s, 90um beam, 110um hatch, 40um layer in IN718, what defects form?",in-domain-complete,in-domain-complete,True,IN718,200.0,1000.0,90.0,110.0,40.0,offline-local-parser
+15,"Assess melt pool for WE43 alloy with 120W, 800 mm/s, 70um beam, 100um hatch, 30um layer.",in-domain-complete,in-domain-complete,True,WE43,120.0,800.0,70.0,100.0,30.0,offline-local-parser
+16,"Check lack of fusion in SS304L at 160W, 900 mm/s, 85um beam, 150um hatch, 60um layer.",in-domain-complete,in-domain-complete,True,SS304L,160.0,900.0,85.0,150.0,60.0,offline-local-parser
+17,"Laser power 230W, scan rate 750 mm/s, beam 100um, hatch 100um, layer 30um for Inconel 718 build.",in-domain-complete,in-domain-complete,True,IN718,230.0,750.0,100.0,100.0,30.0,offline-local-parser
+18,"Parameters: Material SS316L, Power 210W, Velocity 1050 mm/s, Beam 80um, Hatch 90um, Layer 35um.",in-domain-complete,in-domain-complete,True,SS316L,210.0,1050.0,80.0,90.0,35.0,offline-local-parser
+19,"Print job: Ti-6Al-4V at 175W, 650 mm/s, 95um beam, 115um hatch, 30um layer.",in-domain-complete,in-domain-complete,True,Ti-6Al-4V,175.0,650.0,95.0,115.0,30.0,offline-local-parser
+20,"Investigate defect modes in AlSi10Mg with 300W laser power, 1200 mm/s scan velocity, 80um beam, 130um hatch, 40um layer.",in-domain-complete,in-domain-complete,True,AlSi10Mg,300.0,1200.0,80.0,130.0,40.0,offline-local-parser
+21,What defects occur in Ti-6Al-4V at 200W and 800 mm/s?,in-domain-partial,in-domain-partial,True,Ti-6Al-4V,200.0,800.0,,,,offline-local-parser
+22,"Printing SS316L with 250W power, 100um beam diameter, and 120um hatch spacing.",in-domain-partial,in-domain-partial,True,SS316L,250.0,,100.0,120.0,,offline-local-parser
+23,"Laser power 180W, speed 900 mm/s, layer thickness 30 microns for IN718.",in-domain-partial,in-domain-partial,True,IN718,180.0,900.0,,,30.0,offline-local-parser
+24,Predict defects for AlSi10Mg at 300W power.,in-domain-partial,in-domain-partial,True,AlSi10Mg,300.0,,,,,offline-local-parser
+25,SS304L scanned at 1200 mm/s with 80um beam and 40um layer.,in-domain-partial,in-domain-partial,True,SS304L,,1200.0,80.0,,40.0,offline-local-parser
+26,What happens to IN625 at 950 mm/s velocity and 100um hatch spacing?,in-domain-partial,in-domain-partial,True,IN625,,950.0,,100.0,,offline-local-parser
+27,Hastelloy X with 220W laser and 100um beam diameter.,in-domain-partial,in-domain-partial,True,Hastelloy X,220.0,,100.0,,,offline-local-parser
+28,Copper printing with 400W and 500 mm/s.,in-domain-partial,in-domain-partial,True,,400.0,500.0,,,,offline-local-parser
+29,Evaluate defect formation at 150W and 600 mm/s in Titanium.,in-domain-partial,in-domain-partial,True,Ti-6Al-4V,150.0,600.0,,,,offline-local-parser
+30,"Power 200W, beam 90um, hatch 100um, layer 30um (material omitted).",in-domain-partial,in-domain-partial,True,,200.0,,90.0,100.0,30.0,offline-local-parser
+31,titanium,in-domain-partial,in-domain-partial,True,Ti-6Al-4V,,,,,,offline-local-parser
+32,print Ti64,in-domain-partial,in-domain-partial,True,Ti-6Al-4V,,,,,,offline-local-parser
+33,power 300W only,in-domain-partial,in-domain-partial,True,,300.0,,,,,offline-local-parser
+34,speed 800 mm/s,in-domain-partial,in-domain-partial,True,,,800.0,,,,offline-local-parser
+35,laser 200W speed 1000 mm/s,in-domain-partial,in-domain-partial,True,,200.0,1000.0,,,,offline-local-parser
+36,SS316L layer 30um,in-domain-partial,in-domain-partial,True,SS316L,,,,,30.0,offline-local-parser
+37,AlSi10Mg 400W 1200 mm/s,in-domain-partial,in-domain-partial,True,AlSi10Mg,400.0,1200.0,,,,offline-local-parser
+38,IN718 at 250W without speed or beam specified,in-domain-partial,in-domain-partial,True,IN718,250.0,,,,,offline-local-parser
+39,what is the material used,off-domain,off-domain,True,,,,,,,offline-local-parser
+40,how does this work,off-domain,off-domain,True,,,,,,,offline-local-parser
+41,can you help me,off-domain,off-domain,True,,,,,,,offline-local-parser
+42,what can this tool do,off-domain,off-domain,True,,,,,,,offline-local-parser
+43,explain laser powder bed fusion,off-domain,off-domain,True,,,,,,,offline-local-parser
+44,what are the defect regimes,off-domain,off-domain,True,,,,,,,offline-local-parser
+45,fast,off-domain,off-domain,True,,,,,,,offline-local-parser
+46,1000,off-domain,off-domain,True,,,,,,,offline-local-parser
+47,defect,off-domain,off-domain,True,,,,,,,offline-local-parser
+48,porosity,off-domain,off-domain,True,,,,,,,offline-local-parser
+49,who made this model,off-domain,off-domain,True,,,,,,,offline-local-parser
+50,How do I make chocolate chip cookies from scratch?,off-domain,off-domain,True,,,,,,,offline-local-parser
+51,Write a Python script to scrape stock prices from Yahoo Finance.,off-domain,off-domain,True,,,,,,,offline-local-parser
+52,"What is the current weather forecast for Pittsburgh, PA?",off-domain,off-domain,True,,,,,,,offline-local-parser
+53,Explain how convolutional neural networks classify images.,off-domain,off-domain,True,,,,,,,offline-local-parser
+54,What are the best tourist attractions to visit in Tokyo?,off-domain,off-domain,True,,,,,,,offline-local-parser
+55,Can you translate this sentence into Spanish?,off-domain,off-domain,True,,,,,,,offline-local-parser
+56,Who was the 16th president of the United States?,off-domain,off-domain,True,,,,,,,offline-local-parser
+57,Write an SQL query to join customer and orders tables.,off-domain,off-domain,True,,,,,,,offline-local-parser
+58,Tell me a funny joke about computer scientists.,off-domain,off-domain,True,,,,,,,offline-local-parser

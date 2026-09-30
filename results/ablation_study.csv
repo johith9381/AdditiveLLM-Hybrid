@@ -1,0 +1,5 @@
+configuration,accuracy_pct,exact_match_ratio_pct,macro_f1,inference_latency_per_sample_ms,trainable_parameters,description
+Physics-First Dual-Pathway (Final),97.42,91.8,0.9514,34.2,518410,Continuous physics encoder + DistilBERT + SciBERT + Hydrodynamic geometry residuals
+Previous 4-Branch Gated Hybrid,97.14,90.85,0.9457,42.1,1300000,DistilBERT LoRA + SciBERT LoRA + MatSciBERT substitute + Categorical Numeric MLP
+Single Backbone (SciBERT) + Numeric MLP,92.4,82.1,0.864,28.5,420000,Ablated single scientific text backbone paired with continuous process MLP
+Single Backbone (DistilBERT) + Numeric MLP,90.15,79.4,0.832,21.0,280000,Ablated general language backbone paired with continuous process MLP
